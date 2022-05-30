@@ -1,0 +1,5 @@
+com/eternalpixel/eternalpixeldungeon/services/updates/GitHubUpdates.java
+ com.eternalpixel.eternalpixeldungeon.services.updates.GitHubUpdates
+ com.eternalpixel.eternalpixeldungeon.services.updates.GitHubUpdates$1
+com/eternalpixel/eternalpixeldungeon/services/updates/UpdateImpl.java
+ com.eternalpixel.eternalpixeldungeon.services.updates.UpdateImpl

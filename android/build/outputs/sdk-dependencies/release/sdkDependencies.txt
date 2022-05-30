@@ -1,0 +1,71 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    groupId: "com.badlogicgames.gdx"
+    artifactId: "gdx"
+    version: "1.10.0"
+  }
+  digests {
+    sha256: "\377\264\233\006q\0364\261\241u\337\0271\033\017:\340\350[\364lV\232\023~\300\r)\033\262\312\341"
+  }
+  repo_index {
+    value: 1
+  }
+}
+library {
+  maven_library {
+    groupId: "com.badlogicgames.gdx"
+    artifactId: "gdx-freetype"
+    version: "1.10.0"
+  }
+  digests {
+    sha256: "\377\017s\022\300cW\253\354\006mI)k\217eT\264\017\241\314>V\271\302\b\225t\026\226\241%"
+  }
+  repo_index {
+    value: 1
+  }
+}
+library {
+  maven_library {
+    groupId: "com.badlogicgames.gdx"
+    artifactId: "gdx-backend-android"
+    version: "1.10.0"
+  }
+  digests {
+    sha256: "\032q\263\200\242m\004\250\3576\221O\351\260\016a\302|z0?`\304j\246\311\225\217f_\200b"
+  }
+  repo_index {
+    value: 1
+  }
+}
+library_dependencies {
+  library_index: 1
+  library_dep_index: 0
+}
+library_dependencies {
+  library_index: 2
+  library_dep_index: 0
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 2
+  dependency_index: 1
+  dependency_index: 0
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://oss.sonatype.org/content/repositories/snapshots"
+  }
+}

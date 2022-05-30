@@ -1,0 +1,162 @@
+# The proguard configuration file for the following section is E:\eternal-pixel-dungeon-0.0.1\android\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-7.0.4
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+#
+# Starting with version 2.2 of the Android plugin for Gradle, this file is distributed together with
+# the plugin and unpacked at build-time. The files in $ANDROID_HOME are no longer maintained and
+# will be ignored by new version of the Android plugin for Gradle.
+
+# Optimizations: If you don't want to optimize, use the proguard-android.txt configuration file
+# instead of this one, which turns off the optimization flags.
+# Adding optimization introduces certain risks, since for example not all optimizations performed by
+# ProGuard works on all versions of Dalvik.  The following flags turn off various optimizations
+# known to have issues, but the list may not be complete or up to date. (The "arithmetic"
+# optimization can be used if you are only targeting Android 2.0 or later.)  Make sure you test
+# thoroughly if you go this route.
+-optimizations !code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*
+-optimizationpasses 5
+-allowaccessmodification
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+# Preserve some attributes that may be required for reflection.
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
+
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+-keep public class com.google.android.vending.licensing.ILicensingService
+-dontnote com.android.vending.licensing.ILicensingService
+-dontnote com.google.vending.licensing.ILicensingService
+-dontnote com.google.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames,includedescriptorclasses class * {
+    native <methods>;
+}
+
+# Keep setters in Views so that animations can still work.
+-keepclassmembers public class * extends android.view.View {
+    void set*(***);
+    *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick.
+-keepclassmembers class * extends android.app.Activity {
+    public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+# Preserve annotated Javascript interface methods.
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+# The support libraries contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version. We know about them, and they are safe.
+-dontnote android.support.**
+-dontnote androidx.**
+-dontwarn android.support.**
+-dontwarn androidx.**
+
+# This class is deprecated, but remains for backward compatibility.
+-dontwarn android.util.FloatMath
+
+# Understand the @Keep support annotation.
+-keep class android.support.annotation.Keep
+-keep class androidx.annotation.Keep
+
+-keep @android.support.annotation.Keep class * {*;}
+-keep @androidx.annotation.Keep class * {*;}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep <init>(...);
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep <init>(...);
+}
+
+# These classes are duplicated between android.jar and org.apache.http.legacy.jar.
+-dontnote org.apache.http.**
+-dontnote android.net.http.**
+
+# These classes are duplicated between android.jar and core-lambda-stubs.jar.
+-dontnote java.lang.invoke.**
+
+# End of content from E:\eternal-pixel-dungeon-0.0.1\android\build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-7.0.4
+# The proguard configuration file for the following section is E:\eternal-pixel-dungeon-0.0.1\android\proguard-rules.pro
+# retain these to support class references for the bundling and translation systems
+-keepnames class com.eternalpixel.** { *; }
+-keepnames class com.watabou.** { *; }
+
+# keep members of classes that are instantiated via reflection
+-keepclassmembers class * extends com.watabou.glscripts.Script
+-keepclassmembers class * implements com.watabou.utils.Bundlable
+
+# retained to support meaningful stack traces
+# note that the mapping file must be referenced in order to make sense of line numbers
+# mapping file can be found in core/build/outputs/mapping after running a release build
+-keepattributes SourceFile,LineNumberTable
+
+# libGDX stuff
+-dontwarn android.support.**
+-dontwarn com.badlogic.gdx.backends.android.AndroidFragmentApplication
+-dontwarn com.badlogic.gdx.utils.GdxBuild
+-dontwarn com.badlogic.gdx.physics.box2d.utils.Box2DBuild
+-dontwarn com.badlogic.gdx.jnigen.BuildTarget*
+
+# needed for libGDX skin reflection used in text fields. Perhaps just don't use skin?
+-keepnames class com.badlogic.gdx.graphics.Color { *; }
+-keepnames class com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle { *; }
+
+-keepclassmembers class com.badlogic.gdx.backends.android.AndroidInput* {
+    <init>(com.badlogic.gdx.Application, android.content.Context, java.lang.Object, com.badlogic.gdx.backends.android.AndroidApplicationConfiguration);
+}
+
+-keepclassmembers class com.badlogic.gdx.physics.box2d.World {
+    boolean contactFilter(long, long);
+    void    beginContact(long);
+    void    endContact(long);
+    void    preSolve(long, long);
+    void    postSolve(long, long);
+    boolean reportFixture(long);
+    float   reportRayFixture(long, float, float, float, float, float);
+}
+# End of content from E:\eternal-pixel-dungeon-0.0.1\android\proguard-rules.pro
+# The proguard configuration file for the following section is E:\eternal-pixel-dungeon-0.0.1\android\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+-keep class com.eternalpixel.eternalpixeldungeon.android.AndroidBackupHandler { <init>(); }
+-keep class com.eternalpixel.eternalpixeldungeon.android.AndroidGame { <init>(); }
+-keep class com.eternalpixel.eternalpixeldungeon.android.AndroidLauncher { <init>(); }
+
+# End of content from E:\eternal-pixel-dungeon-0.0.1\android\build\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is <unknown>
+-ignorewarnings
+# End of content from <unknown>

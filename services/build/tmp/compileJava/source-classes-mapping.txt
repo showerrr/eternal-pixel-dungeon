@@ -1,0 +1,11 @@
+com/eternalpixel/eternalpixeldungeon/services/news/NewsArticle.java
+ com.eternalpixel.eternalpixeldungeon.services.news.NewsArticle
+com/eternalpixel/eternalpixeldungeon/services/updates/UpdateService.java
+ com.eternalpixel.eternalpixeldungeon.services.updates.UpdateService
+ com.eternalpixel.eternalpixeldungeon.services.updates.UpdateService$ReviewResultCallback
+ com.eternalpixel.eternalpixeldungeon.services.updates.UpdateService$UpdateResultCallback
+com/eternalpixel/eternalpixeldungeon/services/news/NewsService.java
+ com.eternalpixel.eternalpixeldungeon.services.news.NewsService
+ com.eternalpixel.eternalpixeldungeon.services.news.NewsService$NewsResultCallback
+com/eternalpixel/eternalpixeldungeon/services/updates/AvailableUpdateData.java
+ com.eternalpixel.eternalpixeldungeon.services.updates.AvailableUpdateData

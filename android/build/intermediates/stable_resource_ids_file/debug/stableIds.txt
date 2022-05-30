@@ -1,0 +1,3 @@
+com.eternaldpixel.eternalpixeldungeon.indev:mipmap/ic_launcher_foreground = 0x7f010002
+com.eternaldpixel.eternalpixeldungeon.indev:mipmap/ic_launcher_background = 0x7f010001
+com.eternaldpixel.eternalpixeldungeon.indev:mipmap/ic_launcher = 0x7f010000

@@ -1,0 +1,3 @@
+-keep class com.eternalpixel.eternalpixeldungeon.android.AndroidBackupHandler { <init>(); }
+-keep class com.eternalpixel.eternalpixeldungeon.android.AndroidGame { <init>(); }
+-keep class com.eternalpixel.eternalpixeldungeon.android.AndroidLauncher { <init>(); }

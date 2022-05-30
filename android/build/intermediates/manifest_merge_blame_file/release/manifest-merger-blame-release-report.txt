@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.eternalpixel.eternalpixeldungeon"
+5    android:installLocation="auto"
+6    android:targetSandboxVersion="2"
+7    android:versionCode="1"
+8    android:versionName="0.0.1" >
+9
+10    <uses-sdk
+11        android:minSdkVersion="14"
+11-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+12        android:targetSdkVersion="31" />
+12-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+13
+14    <dist:module dist:instant="true" />
+14-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:8:2-37
+14-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:8:15-34
+15
+16    <uses-feature android:glEsVersion="0x00020000" />
+16-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:9:2-50
+16-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:9:16-48
+17
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:11:2-63
+18-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:11:19-60
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:12:2-64
+19-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:12:19-61
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:13:2-76
+20-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:13:19-73
+21
+22    <!--
+23         Note that the game doesn't truly support small screen resolutions,
+24		it instead forces downscaling to work on these displays.
+25    -->
+26    <supports-screens
+26-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:17:2-21:33
+27        android:largeScreens="true"
+27-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:20:3-30
+28        android:normalScreens="true"
+28-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:19:3-31
+29        android:smallScreens="true"
+29-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:18:3-30
+30        android:xlargeScreens="true" />
+30-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:21:3-31
+31
+32    <application
+33        android:allowBackup="true"
+33-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:28:3-29
+34        android:backupAgent="com.eternalpixel.eternalpixeldungeon.android.AndroidBackupHandler"
+34-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:30:3-90
+35        android:fullBackupOnly="true"
+35-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:29:3-32
+36        android:icon="@mipmap/ic_launcher"
+36-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:24:3-37
+37        android:label="Eternal Pixel Dungeon"
+37-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:25:3-29
+38        android:resizeableActivity="true"
+38-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:27:3-36
+39        android:theme="@android:style/Theme.Black.NoTitleBar" >
+39-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:26:3-56
+40        <activity
+41            android:name="com.eternalpixel.eternalpixeldungeon.android.AndroidLauncher"
+41-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:33:4-79
+42            android:exported="true"
+42-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:34:4-27
+43            android:label="Eternal Pixel Dungeon" >
+43-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:32:4-30
+44            <intent-filter>
+44-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:35:4-38:20
+45                <action android:name="android.intent.action.MAIN" />
+45-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:36:5-57
+45-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:36:13-54
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:37:5-65
+47-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:37:15-62
+48            </intent-filter>
+49        </activity>
+50        <activity
+51            android:name="com.eternalpixel.eternalpixeldungeon.android.AndroidGame"
+51-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:42:4-75
+52            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+52-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:44:4-106
+53            android:label="Eternal Pixel Dungeon"
+53-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:41:4-30
+54            android:screenOrientation="nosensor" >
+54-->E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:43:4-40
+55        </activity>
+56    </application>
+57
+58</manifest>

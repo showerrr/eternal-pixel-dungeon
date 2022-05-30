@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eternal-pixel-dungeon-0.0.1.iml" filepath="$PROJECT_DIR$/.idea/modules/eternal-pixel-dungeon-0.0.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SPD-classes/eternal-pixel-dungeon-0.0.1.SPD-classes.iml" filepath="$PROJECT_DIR$/.idea/modules/SPD-classes/eternal-pixel-dungeon-0.0.1.SPD-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/eternal-pixel-dungeon-0.0.1.android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/eternal-pixel-dungeon-0.0.1.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/eternal-pixel-dungeon-0.0.1.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/eternal-pixel-dungeon-0.0.1.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/eternal-pixel-dungeon-0.0.1.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/eternal-pixel-dungeon-0.0.1.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios/eternal-pixel-dungeon-0.0.1.ios.iml" filepath="$PROJECT_DIR$/.idea/modules/ios/eternal-pixel-dungeon-0.0.1.ios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/eternal-pixel-dungeon-0.0.1.services.iml" filepath="$PROJECT_DIR$/.idea/modules/services/eternal-pixel-dungeon-0.0.1.services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/news/eternal-pixel-dungeon-0.0.1.services.news.iml" filepath="$PROJECT_DIR$/.idea/modules/services/news/eternal-pixel-dungeon-0.0.1.services.news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/news/debugNews/eternal-pixel-dungeon-0.0.1.services.news.debugNews.iml" filepath="$PROJECT_DIR$/.idea/modules/services/news/debugNews/eternal-pixel-dungeon-0.0.1.services.news.debugNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/news/shatteredNews/eternal-pixel-dungeon-0.0.1.services.news.shatteredNews.iml" filepath="$PROJECT_DIR$/.idea/modules/services/news/shatteredNews/eternal-pixel-dungeon-0.0.1.services.news.shatteredNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/updates/eternal-pixel-dungeon-0.0.1.services.updates.iml" filepath="$PROJECT_DIR$/.idea/modules/services/updates/eternal-pixel-dungeon-0.0.1.services.updates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/updates/debugUpdates/eternal-pixel-dungeon-0.0.1.services.updates.debugUpdates.iml" filepath="$PROJECT_DIR$/.idea/modules/services/updates/debugUpdates/eternal-pixel-dungeon-0.0.1.services.updates.debugUpdates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/updates/githubUpdates/eternal-pixel-dungeon-0.0.1.services.updates.githubUpdates.iml" filepath="$PROJECT_DIR$/.idea/modules/services/updates/githubUpdates/eternal-pixel-dungeon-0.0.1.services.updates.githubUpdates.iml" />
+    </modules>
+  </component>
+</project>

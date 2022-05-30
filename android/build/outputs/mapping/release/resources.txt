@@ -1,0 +1,5 @@
+Resource Reference Graph:
+mipmap:ic_launcher:2130771968 => [mipmap:ic_launcher_background:2130771969, mipmap:ic_launcher_foreground:2130771970]
+The root reachable resources are:
+mipmap:ic_launcher:2130771968
+Resource shrinking did not work (grew from 26774 to 26817); using original instead

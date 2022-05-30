@@ -1,0 +1,5 @@
+com/eternalpixel/eternalpixeldungeon/services/news/NewsImpl.java
+ com.eternalpixel.eternalpixeldungeon.services.news.NewsImpl
+com/eternalpixel/eternalpixeldungeon/services/news/ShatteredNews.java
+ com.eternalpixel.eternalpixeldungeon.services.news.ShatteredNews
+ com.eternalpixel.eternalpixeldungeon.services.news.ShatteredNews$1

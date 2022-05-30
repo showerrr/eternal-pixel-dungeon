@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-ldpi_ic_launcher.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\eternal-pixel-dungeon-0.0.1\\android\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\eternal-pixel-dungeon-0.0.1\\android\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    }
+]

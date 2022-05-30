@@ -1,0 +1,120 @@
+-- Merging decision tree log ---
+application
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:23:2-47:16
+	android:backupAgent
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:30:3-90
+	android:label
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:25:3-29
+	android:resizeableActivity
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:27:3-36
+	android:icon
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:24:3-37
+	android:allowBackup
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:28:3-29
+	android:theme
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:26:3-56
+	android:fullBackupOnly
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:29:3-32
+activity#com.eternalpixel.eternalpixeldungeon.android.AndroidLauncher
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:31:3-39:14
+	android:label
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:32:4-30
+	android:exported
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:34:4-27
+	android:name
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:33:4-79
+activity#com.eternalpixel.eternalpixeldungeon.android.AndroidGame
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:40:3-45:14
+	android:screenOrientation
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:43:4-40
+	android:label
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:41:4-30
+	android:configChanges
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:44:4-106
+	android:name
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:42:4-75
+manifest
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:3:2-56
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+	xmlns:dist
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:6:2-58
+	android:versionCode
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:1-49:12
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:2:11-69
+	android:targetSandboxVersion
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:5:2-34
+	android:installLocation
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:4:2-32
+dist:module
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:8:2-37
+	dist:instant
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:8:15-34
+uses-feature#0x00020000
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:9:2-50
+	android:glEsVersion
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:9:16-48
+uses-permission#android.permission.VIBRATE
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:11:2-63
+	android:name
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:11:19-60
+uses-permission#android.permission.INTERNET
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:12:2-64
+	android:name
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:12:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:13:2-76
+	android:name
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:13:19-73
+supports-screens
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:17:2-21:33
+	android:largeScreens
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:20:3-30
+	android:smallScreens
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:18:3-30
+	android:normalScreens
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:19:3-31
+	android:xlargeScreens
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:21:3-31
+uses-sdk
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+		INJECTED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:35:4-38:20
+action#android.intent.action.MAIN
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:36:5-57
+	android:name
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:36:13-54
+category#android.intent.category.LAUNCHER
+ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:37:5-65
+	android:name
+		ADDED from E:\eternal-pixel-dungeon-0.0.1\android\src\main\AndroidManifest.xml:37:15-62

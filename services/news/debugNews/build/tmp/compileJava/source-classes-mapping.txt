@@ -1,0 +1,4 @@
+com/eternalpixel/eternalpixeldungeon/services/news/DebugNews.java
+ com.eternalpixel.eternalpixeldungeon.services.news.DebugNews
+com/eternalpixel/eternalpixeldungeon/services/news/NewsImpl.java
+ com.eternalpixel.eternalpixeldungeon.services.news.NewsImpl
