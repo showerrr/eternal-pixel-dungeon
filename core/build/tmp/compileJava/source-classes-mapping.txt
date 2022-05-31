@@ -255,6 +255,7 @@ com/eternalpixel/eternalpixeldungeon/items/food/FrozenCarpaccio.java
 com/eternalpixel/eternalpixeldungeon/items/artifacts/RiggedTarot.java
  com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot
  com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$1
+ com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$1$1
  com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$rogueCard
  com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$tarotRecharge
 com/eternalpixel/eternalpixeldungeon/actors/hero/abilities/huntress/SpectralBlades.java

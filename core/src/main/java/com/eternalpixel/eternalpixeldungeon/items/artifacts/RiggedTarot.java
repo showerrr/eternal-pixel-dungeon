@@ -5,9 +5,12 @@ import com.eternalpixel.eternalpixeldungeon.Dungeon;
 import com.eternalpixel.eternalpixeldungeon.actors.Actor;
 import com.eternalpixel.eternalpixeldungeon.actors.Char;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Barrier;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Blindness;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Cripple;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.FlavourBuff;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Invisibility;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Poison;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.ShieldBuff;
 import com.eternalpixel.eternalpixeldungeon.actors.hero.Hero;
 import com.eternalpixel.eternalpixeldungeon.actors.hero.Talent;
@@ -18,6 +21,7 @@ import com.eternalpixel.eternalpixeldungeon.messages.Messages;
 import com.eternalpixel.eternalpixeldungeon.scenes.CellSelector;
 import com.eternalpixel.eternalpixeldungeon.scenes.GameScene;
 import com.eternalpixel.eternalpixeldungeon.sprites.ItemSpriteSheet;
+import com.eternalpixel.eternalpixeldungeon.sprites.MissileSprite;
 import com.eternalpixel.eternalpixeldungeon.tiles.DungeonTilemap;
 import com.eternalpixel.eternalpixeldungeon.ui.BuffIndicator;
 import com.eternalpixel.eternalpixeldungeon.utils.GLog;
@@ -81,7 +85,7 @@ public class RiggedTarot extends Artifact {
                 defaultAction = AC_PLAY;
                 charge--;
 //                card = Random.Int(4);
-                card = 1;
+                card = 3;
                 changeCard();
                 updateQuickslot();
                 return;
@@ -122,6 +126,8 @@ public class RiggedTarot extends Artifact {
                 curUser.spendAndNext(1f);
                 break;
             case 3:
+                GameScene.selectCell(cell);
+                break;
             case 4:
             case 5:
             case 6:
@@ -240,6 +246,22 @@ public class RiggedTarot extends Artifact {
                     }
 
                     curUser.spendAndNext(1f);
+                    break;
+
+                case 3:
+                    ((MissileSprite) curUser.sprite.parent.recycle(MissileSprite.class)).reset(curUser.sprite, cell, RiggedTarot.this, new Callback() {
+                        @Override
+                        public void call() {
+                            final Char enemy = Actor.findChar(cell);
+                            if (enemy != null) {
+                                Buff.affect(enemy, Cripple.class,3f);
+                                Buff.affect(enemy, Poison.class).set(2f);
+                                Buff.affect(enemy, Blindness.class,1f);
+                            }
+                        }
+                    });
+                    curUser.spendAndNext(1f);
+                    break;
             }
 
         }
