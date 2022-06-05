@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 3.0.76
 # min_api: 14
-# pg_map_id: 9a92c20
+# pg_map_id: fcd0a82
 # common_typos_disable
 a.Gdx$$ExternalSyntheticOutline0 -> a.h:
     java.lang.String com.badlogic.gdx.Gdx$$InternalSyntheticOutline$41$0f17755e7d65ddb596a61a161acc00ca0f106aec56b011c7aa63d91a0d5e75e7$0.m(java.lang.String,java.lang.String) -> a
@@ -5645,200 +5645,209 @@ com.eternalpixel.eternalpixeldungeon.Chrome$Type -> com.eternalpixel.eternalpixe
     1:1:com.eternalpixel.eternalpixeldungeon.Chrome$Type valueOf(java.lang.String):28:28 -> valueOf
     1:1:com.eternalpixel.eternalpixeldungeon.Chrome$Type[] values():28:28 -> values
 com.eternalpixel.eternalpixeldungeon.Dungeon -> com.eternalpixel.eternalpixeldungeon.Dungeon:
-    1:1:void <clinit>():162:162 -> <clinit>
-    1:1:boolean asNeeded():439:439 -> asNeeded
-    2:2:boolean asNeeded():442:442 -> asNeeded
-    3:3:boolean asNeeded():444:444 -> asNeeded
-    1:1:boolean bossLevel():345:345 -> bossLevel
-    1:1:void deleteGame(int,boolean):673:673 -> deleteGame
-    2:2:void deleteGame(int,boolean):676:676 -> deleteGame
-    3:3:void deleteGame(int,boolean):679:679 -> deleteGame
-    1:2:void dropToChasm(com.eternalpixel.eternalpixeldungeon.items.Item):398:399 -> dropToChasm
-    3:3:void dropToChasm(com.eternalpixel.eternalpixeldungeon.items.Item):401:401 -> dropToChasm
-    4:4:void dropToChasm(com.eternalpixel.eternalpixeldungeon.items.Item):403:403 -> dropToChasm
-    1:2:void fail(java.lang.Class):691:692 -> fail
-    1:2:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):830:831 -> findPath
-    3:3:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):834:834 -> findPath
-    4:4:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):832:832 -> findPath
-    5:6:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):837:838 -> findPath
-    7:9:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):842:844 -> findPath
-    10:10:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):849:849 -> findPath
-    1:2:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):855:856 -> findStep
-    3:4:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):859:860 -> findStep
-    5:5:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):863:863 -> findStep
-    6:6:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):861:861 -> findStep
-    7:8:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):866:867 -> findStep
-    9:11:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):871:873 -> findStep
-    12:12:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):878:878 -> findStep
-    1:3:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):884:886 -> flee
-    4:4:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):888:888 -> flee
-    5:6:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):891:892 -> flee
-    7:7:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):895:895 -> flee
-    8:11:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):898:901 -> flee
-    1:3:void init():180:182 -> init
-    4:4:void init():184:184 -> init
-    5:6:void init():186:187 -> init
-    7:7:void init():189:189 -> init
-    8:10:void init():191:193 -> init
-    11:12:void init():195:196 -> init
-    13:13:void init():198:198 -> init
-    14:15:void init():200:201 -> init
-    16:17:void init():203:204 -> init
-    18:20:void init():206:208 -> init
-    21:22:void init():210:211 -> init
-    23:23:void init():213:213 -> init
-    24:24:void init():215:215 -> init
-    25:28:void init():217:220 -> init
-    29:31:void init():222:224 -> init
-    32:32:void init():226:226 -> init
-    33:33:void init():228:228 -> init
-    1:1:boolean isChallenged(int):232:232 -> isChallenged
-    1:1:void loadGame(int):551:551 -> loadGame
-    2:2:void loadGame(int,boolean):556:556 -> loadGame
-    3:3:void loadGame(int,boolean):558:558 -> loadGame
-    4:4:void loadGame(int,boolean):560:560 -> loadGame
-    5:6:void loadGame(int,boolean):562:563 -> loadGame
-    7:8:void loadGame(int,boolean):565:566 -> loadGame
-    9:10:void loadGame(int,boolean):568:569 -> loadGame
-    11:12:void loadGame(int,boolean):571:572 -> loadGame
-    13:15:void loadGame(int,boolean):574:576 -> loadGame
-    16:16:void loadGame(int,boolean):578:578 -> loadGame
-    17:17:void loadGame(int,boolean):582:582 -> loadGame
-    18:19:void loadGame(int,boolean):584:585 -> loadGame
-    20:21:void loadGame(int,boolean):587:588 -> loadGame
-    22:27:void loadGame(int,boolean):592:597 -> loadGame
-    28:31:void loadGame(int,boolean):599:602 -> loadGame
-    32:33:void loadGame(int,boolean):605:606 -> loadGame
-    34:36:void loadGame(int,boolean):609:611 -> loadGame
-    37:37:void loadGame(int,boolean):613:613 -> loadGame
-    38:38:void loadGame(int,boolean):616:616 -> loadGame
-    39:40:void loadGame(int,boolean):618:619 -> loadGame
-    41:41:void loadGame(int,boolean):621:621 -> loadGame
-    42:43:void loadGame(int,boolean):623:624 -> loadGame
-    44:45:void loadGame(int,boolean):626:627 -> loadGame
-    46:47:void loadGame(int,boolean):629:630 -> loadGame
-    48:51:void loadGame(int,boolean):634:637 -> loadGame
-    52:53:void loadGame(int,boolean):639:640 -> loadGame
-    54:57:void loadGame(int,boolean):644:647 -> loadGame
-    58:59:void loadGame(int,boolean):649:650 -> loadGame
-    1:2:com.eternalpixel.eternalpixeldungeon.levels.Level loadLevel(int):657:658 -> loadLevel
-    3:3:com.eternalpixel.eternalpixeldungeon.levels.Level loadLevel(int):660:660 -> loadLevel
-    4:4:com.eternalpixel.eternalpixeldungeon.levels.Level loadLevel(int):662:662 -> loadLevel
-    5:5:com.eternalpixel.eternalpixeldungeon.levels.Level loadLevel(int):665:665 -> loadLevel
-    1:2:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():237:238 -> newLevel
-    3:5:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():240:242 -> newLevel
-    6:7:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():244:245 -> newLevel
-    8:8:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():247:247 -> newLevel
-    9:9:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():252:252 -> newLevel
-    10:11:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():305:306 -> newLevel
+    1:1:void <clinit>():163:163 -> <clinit>
+    1:1:boolean asNeeded():448:448 -> asNeeded
+    2:2:boolean asNeeded():451:451 -> asNeeded
+    3:3:boolean asNeeded():453:453 -> asNeeded
+    1:1:boolean bossLevel():348:348 -> bossLevel
+    1:1:void deleteGame(int,boolean):689:689 -> deleteGame
+    2:2:void deleteGame(int,boolean):692:692 -> deleteGame
+    3:3:void deleteGame(int,boolean):695:695 -> deleteGame
+    1:2:void dropToChasm(com.eternalpixel.eternalpixeldungeon.items.Item):407:408 -> dropToChasm
+    3:3:void dropToChasm(com.eternalpixel.eternalpixeldungeon.items.Item):410:410 -> dropToChasm
+    4:4:void dropToChasm(com.eternalpixel.eternalpixeldungeon.items.Item):412:412 -> dropToChasm
+    1:2:void fail(java.lang.Class):707:708 -> fail
+    1:2:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):868:869 -> findPath
+    3:3:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):872:872 -> findPath
+    4:4:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):870:870 -> findPath
+    5:6:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):875:876 -> findPath
+    7:9:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):880:882 -> findPath
+    10:10:com.watabou.utils.PathFinder$Path findPath(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):887:887 -> findPath
+    1:2:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):893:894 -> findStep
+    3:4:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):897:898 -> findStep
+    5:5:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):901:901 -> findStep
+    6:6:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):899:899 -> findStep
+    7:8:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):904:905 -> findStep
+    9:11:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):909:911 -> findStep
+    12:12:int findStep(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):916:916 -> findStep
+    1:3:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):922:924 -> flee
+    4:4:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):926:926 -> flee
+    5:6:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):929:930 -> flee
+    7:7:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):933:933 -> flee
+    8:11:int flee(com.eternalpixel.eternalpixeldungeon.actors.Char,int,boolean[],boolean[],boolean):936:939 -> flee
+    1:3:void init():181:183 -> init
+    4:4:void init():185:185 -> init
+    5:6:void init():187:188 -> init
+    7:7:void init():190:190 -> init
+    8:10:void init():192:194 -> init
+    11:12:void init():196:197 -> init
+    13:13:void init():199:199 -> init
+    14:15:void init():201:202 -> init
+    16:17:void init():204:205 -> init
+    18:20:void init():207:209 -> init
+    21:22:void init():211:212 -> init
+    23:23:void init():214:214 -> init
+    24:24:void init():216:216 -> init
+    25:28:void init():218:221 -> init
+    29:29:void init():223:223 -> init
+    30:32:void init():225:227 -> init
+    33:33:void init():229:229 -> init
+    34:34:void init():231:231 -> init
+    1:1:boolean isChallenged(int):235:235 -> isChallenged
+    1:1:void loadGame(int):564:564 -> loadGame
+    2:2:void loadGame(int,boolean):569:569 -> loadGame
+    3:3:void loadGame(int,boolean):571:571 -> loadGame
+    4:4:void loadGame(int,boolean):573:573 -> loadGame
+    5:6:void loadGame(int,boolean):575:576 -> loadGame
+    7:8:void loadGame(int,boolean):578:579 -> loadGame
+    9:10:void loadGame(int,boolean):581:582 -> loadGame
+    11:12:void loadGame(int,boolean):584:585 -> loadGame
+    13:15:void loadGame(int,boolean):587:589 -> loadGame
+    16:16:void loadGame(int,boolean):591:591 -> loadGame
+    17:17:void loadGame(int,boolean):595:595 -> loadGame
+    18:19:void loadGame(int,boolean):597:598 -> loadGame
+    20:21:void loadGame(int,boolean):600:601 -> loadGame
+    22:27:void loadGame(int,boolean):605:610 -> loadGame
+    28:31:void loadGame(int,boolean):612:615 -> loadGame
+    32:33:void loadGame(int,boolean):618:619 -> loadGame
+    34:35:void loadGame(int,boolean):622:623 -> loadGame
+    36:38:void loadGame(int,boolean):625:627 -> loadGame
+    39:39:void loadGame(int,boolean):629:629 -> loadGame
+    40:40:void loadGame(int,boolean):632:632 -> loadGame
+    41:42:void loadGame(int,boolean):634:635 -> loadGame
+    43:43:void loadGame(int,boolean):637:637 -> loadGame
+    44:45:void loadGame(int,boolean):639:640 -> loadGame
+    46:47:void loadGame(int,boolean):642:643 -> loadGame
+    48:49:void loadGame(int,boolean):645:646 -> loadGame
+    50:53:void loadGame(int,boolean):650:653 -> loadGame
+    54:55:void loadGame(int,boolean):655:656 -> loadGame
+    56:59:void loadGame(int,boolean):660:663 -> loadGame
+    60:61:void loadGame(int,boolean):665:666 -> loadGame
+    1:2:com.eternalpixel.eternalpixeldungeon.levels.Level loadLevel(int):673:674 -> loadLevel
+    3:3:com.eternalpixel.eternalpixeldungeon.levels.Level loadLevel(int):676:676 -> loadLevel
+    4:4:com.eternalpixel.eternalpixeldungeon.levels.Level loadLevel(int):678:678 -> loadLevel
+    5:5:com.eternalpixel.eternalpixeldungeon.levels.Level loadLevel(int):681:681 -> loadLevel
+    1:2:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():240:241 -> newLevel
+    3:4:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():244:245 -> newLevel
+    5:6:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():247:248 -> newLevel
+    7:7:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():250:250 -> newLevel
+    8:8:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():255:255 -> newLevel
+    9:10:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():308:309 -> newLevel
+    11:11:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():305:305 -> newLevel
     12:12:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():302:302 -> newLevel
     13:13:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():299:299 -> newLevel
-    14:14:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():296:296 -> newLevel
+    14:14:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():293:293 -> newLevel
     15:15:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():290:290 -> newLevel
-    16:16:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():287:287 -> newLevel
+    16:16:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():284:284 -> newLevel
     17:17:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():281:281 -> newLevel
-    18:18:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():278:278 -> newLevel
+    18:18:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():275:275 -> newLevel
     19:19:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():272:272 -> newLevel
-    20:20:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():269:269 -> newLevel
+    20:20:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():266:266 -> newLevel
     21:21:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():263:263 -> newLevel
-    22:22:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():260:260 -> newLevel
-    23:23:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():254:254 -> newLevel
-    24:24:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():309:309 -> newLevel
-    25:25:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():311:311 -> newLevel
-    1:2:void observe():705:706 -> observe
-    3:4:void observe():708:709 -> observe
-    5:5:void observe():712:712 -> observe
-    6:6:void observe(int):717:717 -> observe
-    7:7:void observe(int):721:721 -> observe
-    8:9:void observe(int):723:724 -> observe
-    10:13:void observe(int):727:730 -> observe
-    14:14:void observe(int):735:735 -> observe
-    15:16:void observe(int):738:739 -> observe
-    17:17:void observe(int):742:742 -> observe
-    18:22:void observe(int):744:748 -> observe
-    23:23:void observe(int):750:750 -> observe
-    24:29:void observe(int):754:759 -> observe
-    30:31:void observe(int):763:764 -> observe
-    32:35:void observe(int):766:769 -> observe
-    36:41:void observe(int):772:777 -> observe
-    42:47:void observe(int):780:785 -> observe
-    48:49:void observe(int):788:789 -> observe
-    50:51:void observe(int):792:793 -> observe
-    52:56:void observe(int):796:800 -> observe
-    57:57:void observe(int):805:805 -> observe
-    58:59:void observe(int):808:809 -> observe
-    60:60:void observe(int):811:811 -> observe
-    61:61:void observe(int):815:815 -> observe
-    1:1:boolean posNeeded():408:408 -> posNeeded
-    2:2:boolean posNeeded():411:411 -> posNeeded
-    3:4:boolean posNeeded():414:415 -> posNeeded
-    1:5:void preview(com.eternalpixel.eternalpixeldungeon.GamesInProgress$Info,com.watabou.utils.Bundle):683:687 -> preview
-    1:1:void saveAll():539:539 -> saveAll
-    2:4:void saveAll():541:543 -> saveAll
-    5:5:void saveAll():545:545 -> saveAll
-    1:1:void saveGame(int):465:465 -> saveGame
-    2:8:void saveGame(int):467:473 -> saveGame
-    9:10:void saveGame(int):475:476 -> saveGame
-    11:12:void saveGame(int):478:479 -> saveGame
-    13:14:void saveGame(int):482:483 -> saveGame
-    15:15:void saveGame(int):486:486 -> saveGame
-    16:18:void saveGame(int):488:490 -> saveGame
-    19:21:void saveGame(int):493:495 -> saveGame
-    22:22:void saveGame(int):497:497 -> saveGame
-    23:28:void saveGame(int):499:504 -> saveGame
-    29:30:void saveGame(int):506:507 -> saveGame
-    31:33:void saveGame(int):509:511 -> saveGame
-    34:36:void saveGame(int):513:515 -> saveGame
-    37:37:void saveGame(int):517:517 -> saveGame
-    38:40:void saveGame(int):519:521 -> saveGame
-    41:41:void saveGame(int):523:523 -> saveGame
-    42:43:void saveGame(int):526:527 -> saveGame
-    1:2:void saveLevel(int):532:533 -> saveLevel
-    3:3:void saveLevel(int):535:535 -> saveLevel
-    1:1:long seedCurDepth():325:325 -> seedCurDepth
-    1:1:long seedForDepth(int):329:329 -> seedForDepth
-    2:2:long seedForDepth(int):332:332 -> seedForDepth
-    3:3:long seedForDepth(int):334:334 -> seedForDepth
-    4:4:long seedForDepth(int):336:336 -> seedForDepth
-    1:1:void setupPassable():822:822 -> setupPassable
-    2:2:void setupPassable():825:825 -> setupPassable
-    3:3:void setupPassable():823:823 -> setupPassable
-    1:1:boolean shopOnLevel():341:341 -> shopOnLevel
-    1:2:boolean souNeeded():425:426 -> souNeeded
-    3:3:boolean souNeeded():428:428 -> souNeeded
-    4:4:boolean souNeeded():432:432 -> souNeeded
-    5:5:boolean souNeeded():434:434 -> souNeeded
-    1:3:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):355:357 -> switchLevel
-    4:4:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):360:360 -> switchLevel
-    5:7:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):362:364 -> switchLevel
-    8:8:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):366:366 -> switchLevel
-    9:9:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):368:368 -> switchLevel
-    10:11:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):370:371 -> switchLevel
-    12:14:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):373:375 -> switchLevel
-    15:16:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):382:383 -> switchLevel
-    17:17:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):385:385 -> switchLevel
-    18:18:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):387:387 -> switchLevel
-    19:19:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):389:389 -> switchLevel
-    20:20:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):391:391 -> switchLevel
-    1:1:void win(java.lang.Class):698:698 -> win
-    2:2:void win(java.lang.Class):700:700 -> win
+    22:22:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():257:257 -> newLevel
+    23:23:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():312:312 -> newLevel
+    24:24:com.eternalpixel.eternalpixeldungeon.levels.Level newLevel():314:314 -> newLevel
+    1:2:void observe():721:722 -> observe
+    3:4:void observe():724:725 -> observe
+    5:5:void observe():728:728 -> observe
+    6:6:void observe(int):733:733 -> observe
+    7:7:void observe(int):737:737 -> observe
+    8:9:void observe(int):739:740 -> observe
+    10:13:void observe(int):743:746 -> observe
+    14:14:void observe(int):751:751 -> observe
+    15:16:void observe(int):754:755 -> observe
+    17:17:void observe(int):758:758 -> observe
+    18:22:void observe(int):760:764 -> observe
+    23:23:void observe(int):766:766 -> observe
+    24:29:void observe(int):770:775 -> observe
+    30:31:void observe(int):779:780 -> observe
+    32:35:void observe(int):782:785 -> observe
+    36:41:void observe(int):788:793 -> observe
+    42:47:void observe(int):796:801 -> observe
+    48:49:void observe(int):804:805 -> observe
+    50:51:void observe(int):808:809 -> observe
+    52:56:void observe(int):812:816 -> observe
+    57:57:void observe(int):821:821 -> observe
+    58:59:void observe(int):824:825 -> observe
+    60:60:void observe(int):827:827 -> observe
+    61:61:void observe(int):841:841 -> observe
+    62:63:void observe(int):843:844 -> observe
+    64:64:void observe(int):847:847 -> observe
+    65:65:void observe(int):850:850 -> observe
+    66:66:void observe(int):853:853 -> observe
+    1:1:boolean posNeeded():417:417 -> posNeeded
+    2:2:boolean posNeeded():420:420 -> posNeeded
+    3:4:boolean posNeeded():423:424 -> posNeeded
+    1:5:void preview(com.eternalpixel.eternalpixeldungeon.GamesInProgress$Info,com.watabou.utils.Bundle):699:703 -> preview
+    1:1:void saveAll():552:552 -> saveAll
+    2:4:void saveAll():554:556 -> saveAll
+    5:5:void saveAll():558:558 -> saveAll
+    1:1:void saveGame(int):475:475 -> saveGame
+    2:8:void saveGame(int):477:483 -> saveGame
+    9:10:void saveGame(int):485:486 -> saveGame
+    11:12:void saveGame(int):488:489 -> saveGame
+    13:14:void saveGame(int):492:493 -> saveGame
+    15:15:void saveGame(int):496:496 -> saveGame
+    16:18:void saveGame(int):498:500 -> saveGame
+    19:21:void saveGame(int):503:505 -> saveGame
+    22:22:void saveGame(int):507:507 -> saveGame
+    23:28:void saveGame(int):509:514 -> saveGame
+    29:30:void saveGame(int):516:517 -> saveGame
+    31:32:void saveGame(int):519:520 -> saveGame
+    33:35:void saveGame(int):522:524 -> saveGame
+    36:38:void saveGame(int):526:528 -> saveGame
+    39:39:void saveGame(int):530:530 -> saveGame
+    40:42:void saveGame(int):532:534 -> saveGame
+    43:43:void saveGame(int):536:536 -> saveGame
+    44:45:void saveGame(int):539:540 -> saveGame
+    1:2:void saveLevel(int):545:546 -> saveLevel
+    3:3:void saveLevel(int):548:548 -> saveLevel
+    1:1:long seedCurDepth():328:328 -> seedCurDepth
+    1:1:long seedForDepth(int):332:332 -> seedForDepth
+    2:2:long seedForDepth(int):335:335 -> seedForDepth
+    3:3:long seedForDepth(int):337:337 -> seedForDepth
+    4:4:long seedForDepth(int):339:339 -> seedForDepth
+    1:1:void setupPassable():860:860 -> setupPassable
+    2:2:void setupPassable():863:863 -> setupPassable
+    3:3:void setupPassable():861:861 -> setupPassable
+    1:1:boolean shopOnLevel():344:344 -> shopOnLevel
+    1:2:boolean souNeeded():434:435 -> souNeeded
+    3:3:boolean souNeeded():437:437 -> souNeeded
+    4:4:boolean souNeeded():441:441 -> souNeeded
+    5:5:boolean souNeeded():443:443 -> souNeeded
+    1:3:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):358:360 -> switchLevel
+    4:4:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):363:363 -> switchLevel
+    5:7:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):365:367 -> switchLevel
+    8:8:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):369:369 -> switchLevel
+    9:10:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):372:373 -> switchLevel
+    11:11:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):375:375 -> switchLevel
+    12:12:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):377:377 -> switchLevel
+    13:14:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):379:380 -> switchLevel
+    15:17:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):382:384 -> switchLevel
+    18:19:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):391:392 -> switchLevel
+    20:20:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):394:394 -> switchLevel
+    21:21:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):396:396 -> switchLevel
+    22:22:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):398:398 -> switchLevel
+    23:23:void switchLevel(com.eternalpixel.eternalpixeldungeon.levels.Level,int):400:400 -> switchLevel
+    1:1:void win(java.lang.Class):714:714 -> win
+    2:2:void win(java.lang.Class):716:716 -> win
 com.eternalpixel.eternalpixeldungeon.Dungeon$LimitedDrops -> com.eternalpixel.eternalpixeldungeon.Dungeon$LimitedDrops:
-    1:3:void <clinit>():90:92 -> <clinit>
-    4:7:void <clinit>():96:99 -> <clinit>
-    8:9:void <clinit>():102:103 -> <clinit>
-    10:16:void <clinit>():106:112 -> <clinit>
-    17:21:void <clinit>():115:119 -> <clinit>
-    22:22:void <clinit>():88:88 -> <clinit>
-    1:1:void <init>(java.lang.String,int):88:88 -> <init>
-    2:2:void <init>(java.lang.String,int):121:121 -> <init>
-    1:1:void drop():128:128 -> drop
-    1:1:boolean dropped():125:125 -> dropped
-    1:2:void reset():132:133 -> reset
-    1:3:void restore(com.watabou.utils.Bundle):144:146 -> restore
-    4:4:void restore(com.watabou.utils.Bundle):148:148 -> restore
-    1:2:void store(com.watabou.utils.Bundle):138:139 -> store
-    1:1:com.eternalpixel.eternalpixeldungeon.Dungeon$LimitedDrops valueOf(java.lang.String):88:88 -> valueOf
-    1:1:com.eternalpixel.eternalpixeldungeon.Dungeon$LimitedDrops[] values():88:88 -> values
+    1:3:void <clinit>():91:93 -> <clinit>
+    4:7:void <clinit>():97:100 -> <clinit>
+    8:9:void <clinit>():103:104 -> <clinit>
+    10:16:void <clinit>():107:113 -> <clinit>
+    17:21:void <clinit>():116:120 -> <clinit>
+    22:22:void <clinit>():89:89 -> <clinit>
+    1:1:void <init>(java.lang.String,int):89:89 -> <init>
+    2:2:void <init>(java.lang.String,int):122:122 -> <init>
+    1:1:void drop():129:129 -> drop
+    1:1:boolean dropped():126:126 -> dropped
+    1:2:void reset():133:134 -> reset
+    1:3:void restore(com.watabou.utils.Bundle):145:147 -> restore
+    4:4:void restore(com.watabou.utils.Bundle):149:149 -> restore
+    1:2:void store(com.watabou.utils.Bundle):139:140 -> store
+    1:1:com.eternalpixel.eternalpixeldungeon.Dungeon$LimitedDrops valueOf(java.lang.String):89:89 -> valueOf
+    1:1:com.eternalpixel.eternalpixeldungeon.Dungeon$LimitedDrops[] values():89:89 -> values
 com.eternalpixel.eternalpixeldungeon.EPDAction -> com.eternalpixel.eternalpixeldungeon.EPDAction:
     1:2:void <clinit>():40:41 -> <clinit>
     3:4:void <clinit>():44:45 -> <clinit>
@@ -8162,12 +8171,12 @@ com.eternalpixel.eternalpixeldungeon.actors.hero.Hero -> com.eternalpixel.eterna
     10:11:boolean actUnlock(com.eternalpixel.eternalpixeldungeon.actors.hero.HeroAction$Unlock):1035:1036 -> actUnlock
     12:12:boolean actUnlock(com.eternalpixel.eternalpixeldungeon.actors.hero.HeroAction$Unlock):1041:1041 -> actUnlock
     13:13:boolean actUnlock(com.eternalpixel.eternalpixeldungeon.actors.hero.HeroAction$Unlock):1046:1046 -> actUnlock
-    1:1:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1662:1662 -> add
-    2:2:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1665:1665 -> add
-    3:4:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1667:1668 -> add
-    5:5:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1670:1670 -> add
-    6:7:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1673:1674 -> add
-    8:8:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1679:1679 -> add
+    1:1:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1664:1664 -> add
+    2:2:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1667:1667 -> add
+    3:4:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1669:1670 -> add
+    5:5:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1672:1672 -> add
+    6:7:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1675:1676 -> add
+    8:8:void add(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1681:1681 -> add
     1:2:float attackDelay():621:622 -> attackDelay
     3:3:float attackDelay():626:626 -> attackDelay
     4:4:float attackDelay():628:628 -> attackDelay
@@ -8242,36 +8251,36 @@ com.eternalpixel.eternalpixeldungeon.actors.hero.Hero -> com.eternalpixel.eterna
     2:2:java.lang.String defenseVerb():513:513 -> defenseVerb
     3:5:java.lang.String defenseVerb():515:517 -> defenseVerb
     6:6:java.lang.String defenseVerb():519:519 -> defenseVerb
-    1:1:void die(java.lang.Object):1703:1703 -> die
-    2:3:void die(java.lang.Object):1708:1709 -> die
-    4:5:void die(java.lang.Object):1715:1716 -> die
-    6:7:void die(java.lang.Object):1718:1719 -> die
-    8:9:void die(java.lang.Object):1721:1722 -> die
-    10:14:void die(java.lang.Object):1724:1728 -> die
-    15:15:void die(java.lang.Object):1730:1730 -> die
-    16:18:void die(java.lang.Object):1732:1734 -> die
-    19:19:void die(java.lang.Object):1744:1744 -> die
-    20:20:void die(java.lang.Object):1746:1746 -> die
-    21:23:void die(java.lang.Object):1757:1759 -> die
+    1:1:void die(java.lang.Object):1705:1705 -> die
+    2:3:void die(java.lang.Object):1710:1711 -> die
+    4:5:void die(java.lang.Object):1717:1718 -> die
+    6:7:void die(java.lang.Object):1720:1721 -> die
+    8:9:void die(java.lang.Object):1723:1724 -> die
+    10:14:void die(java.lang.Object):1726:1730 -> die
+    15:15:void die(java.lang.Object):1732:1732 -> die
+    16:18:void die(java.lang.Object):1734:1736 -> die
+    19:19:void die(java.lang.Object):1746:1746 -> die
+    20:20:void die(java.lang.Object):1748:1748 -> die
+    21:23:void die(java.lang.Object):1759:1761 -> die
     1:4:int drRoll():527:530 -> drRoll
     5:8:int drRoll():534:537 -> drRoll
     9:10:int drRoll():542:543 -> drRoll
-    1:1:void earnExp(int):1560:1560 -> earnExp
-    2:3:void earnExp(int,java.lang.Class):1565:1566 -> earnExp
-    4:5:void earnExp(int,java.lang.Class):1568:1569 -> earnExp
-    6:7:void earnExp(int,java.lang.Class):1571:1572 -> earnExp
-    8:9:void earnExp(int,java.lang.Class):1574:1575 -> earnExp
-    10:11:void earnExp(int,java.lang.Class):1577:1578 -> earnExp
-    12:14:void earnExp(int,java.lang.Class):1580:1582 -> earnExp
-    15:18:void earnExp(int,java.lang.Class):1584:1587 -> earnExp
-    19:22:void earnExp(int,java.lang.Class):1593:1596 -> earnExp
-    23:24:void earnExp(int,java.lang.Class):1599:1600 -> earnExp
-    25:27:void earnExp(int,java.lang.Class):1603:1605 -> earnExp
-    28:29:void earnExp(int,java.lang.Class):1608:1609 -> earnExp
-    30:32:void earnExp(int,java.lang.Class):1611:1613 -> earnExp
-    33:42:void earnExp(int,java.lang.Class):1620:1629 -> earnExp
-    43:43:void earnExp(int,java.lang.Class):1633:1633 -> earnExp
-    44:44:void earnExp(int,java.lang.Class):1635:1635 -> earnExp
+    1:1:void earnExp(int):1562:1562 -> earnExp
+    2:3:void earnExp(int,java.lang.Class):1567:1568 -> earnExp
+    4:5:void earnExp(int,java.lang.Class):1570:1571 -> earnExp
+    6:7:void earnExp(int,java.lang.Class):1573:1574 -> earnExp
+    8:9:void earnExp(int,java.lang.Class):1576:1577 -> earnExp
+    10:11:void earnExp(int,java.lang.Class):1579:1580 -> earnExp
+    12:14:void earnExp(int,java.lang.Class):1582:1584 -> earnExp
+    15:18:void earnExp(int,java.lang.Class):1586:1589 -> earnExp
+    19:22:void earnExp(int,java.lang.Class):1595:1598 -> earnExp
+    23:24:void earnExp(int,java.lang.Class):1601:1602 -> earnExp
+    25:27:void earnExp(int,java.lang.Class):1605:1607 -> earnExp
+    28:29:void earnExp(int,java.lang.Class):1610:1611 -> earnExp
+    30:32:void earnExp(int,java.lang.Class):1613:1615 -> earnExp
+    33:42:void earnExp(int,java.lang.Class):1622:1631 -> earnExp
+    43:43:void earnExp(int,java.lang.Class):1635:1635 -> earnExp
+    44:44:void earnExp(int,java.lang.Class):1637:1637 -> earnExp
     1:1:com.eternalpixel.eternalpixeldungeon.actors.Char enemy():1163:1163 -> enemy
     1:1:boolean getCloser(int):1384:1384 -> getCloser
     2:3:boolean getCloser(int):1387:1388 -> getCloser
@@ -8304,19 +8313,19 @@ com.eternalpixel.eternalpixeldungeon.actors.hero.Hero -> com.eternalpixel.eterna
     12:12:boolean handle(int):1507:1507 -> handle
     13:13:boolean handle(int):1509:1509 -> handle
     14:14:boolean handle(int):1513:1513 -> handle
-    15:15:boolean handle(int):1526:1526 -> handle
-    16:16:boolean handle(int):1523:1523 -> handle
-    17:19:boolean handle(int):1518:1520 -> handle
-    20:20:boolean handle(int):1515:1515 -> handle
-    21:21:boolean handle(int):1529:1529 -> handle
-    22:22:boolean handle(int):1533:1533 -> handle
-    23:23:boolean handle(int):1536:1536 -> handle
-    24:24:boolean handle(int):1538:1538 -> handle
-    25:27:boolean handle(int):1544:1546 -> handle
-    28:28:boolean handle(int):1548:1548 -> handle
-    29:30:boolean handle(int):1551:1552 -> handle
-    31:31:boolean handle(int):1540:1540 -> handle
-    32:32:boolean handle(int):1531:1531 -> handle
+    15:15:boolean handle(int):1528:1528 -> handle
+    16:18:boolean handle(int):1523:1525 -> handle
+    19:21:boolean handle(int):1518:1520 -> handle
+    22:22:boolean handle(int):1515:1515 -> handle
+    23:23:boolean handle(int):1531:1531 -> handle
+    24:24:boolean handle(int):1535:1535 -> handle
+    25:25:boolean handle(int):1538:1538 -> handle
+    26:26:boolean handle(int):1540:1540 -> handle
+    27:29:boolean handle(int):1546:1548 -> handle
+    30:30:boolean handle(int):1550:1550 -> handle
+    31:32:boolean handle(int):1553:1554 -> handle
+    33:33:boolean handle(int):1542:1542 -> handle
+    34:34:boolean handle(int):1533:1533 -> handle
     1:1:boolean hasTalent(com.eternalpixel.eternalpixeldungeon.actors.hero.Talent):339:339 -> hasTalent
     1:3:void hitSound(float):404:406 -> hitSound
     4:4:void hitSound(float):408:408 -> hitSound
@@ -8324,72 +8333,72 @@ com.eternalpixel.eternalpixeldungeon.actors.hero.Hero -> com.eternalpixel.eterna
     1:1:void interrupt():772:772 -> interrupt
     2:2:void interrupt():775:775 -> interrupt
     3:4:void interrupt():777:778 -> interrupt
-    1:3:boolean isAlive():1834:1836 -> isAlive
-    4:5:boolean isAlive():1838:1839 -> isAlive
-    1:3:boolean isImmune(java.lang.Class):1947:1949 -> isImmune
-    4:4:boolean isImmune(java.lang.Class):1952:1952 -> isImmune
-    1:1:boolean isInvulnerable(java.lang.Class):1957:1957 -> isInvulnerable
-    1:1:boolean isOverDrink():1656:1656 -> isOverDrink
-    1:1:boolean isOverFeed():1652:1652 -> isOverFeed
-    1:1:boolean isStarving():1648:1648 -> isStarving
+    1:3:boolean isAlive():1836:1838 -> isAlive
+    4:5:boolean isAlive():1840:1841 -> isAlive
+    1:3:boolean isImmune(java.lang.Class):1949:1951 -> isImmune
+    4:4:boolean isImmune(java.lang.Class):1954:1954 -> isImmune
+    1:1:boolean isInvulnerable(java.lang.Class):1959:1959 -> isInvulnerable
+    1:1:boolean isOverDrink():1658:1658 -> isOverDrink
+    1:1:boolean isOverFeed():1654:1654 -> isOverFeed
+    1:1:boolean isStarving():1650:1650 -> isStarving
     1:2:void live():424:425 -> live
     3:7:void live():427:431 -> live
-    1:1:int maxExp():1640:1640 -> maxExp
+    1:1:int maxExp():1642:1642 -> maxExp
     1:1:int maxsp():228:228 -> maxsp
     2:2:int maxsp():230:230 -> maxsp
-    1:1:void move(int,boolean):1845:1845 -> move
-    2:2:void move(int,boolean):1847:1847 -> move
-    3:8:void move(int,boolean):1849:1854 -> move
-    9:9:void move(int,boolean):1863:1863 -> move
-    10:10:void move(int,boolean):1858:1858 -> move
-    11:11:void move(int,boolean):1860:1860 -> move
+    1:1:void move(int,boolean):1847:1847 -> move
+    2:2:void move(int,boolean):1849:1849 -> move
+    3:8:void move(int,boolean):1851:1856 -> move
+    9:9:void move(int,boolean):1865:1865 -> move
+    10:10:void move(int,boolean):1860:1860 -> move
+    11:11:void move(int,boolean):1862:1862 -> move
     1:1:java.lang.String name():399:399 -> name
-    1:2:void next():2134:2135 -> next
-    1:1:void onAttackComplete():1871:1871 -> onAttackComplete
-    2:2:void onAttackComplete():1873:1873 -> onAttackComplete
-    3:4:void onAttackComplete():1875:1876 -> onAttackComplete
-    5:6:void onAttackComplete():1878:1879 -> onAttackComplete
-    7:7:void onAttackComplete():1882:1882 -> onAttackComplete
-    8:8:void onAttackComplete():1884:1884 -> onAttackComplete
-    1:1:void onMotionComplete():1889:1889 -> onMotionComplete
-    1:1:void onOperateComplete():1895:1895 -> onOperateComplete
-    2:3:void onOperateComplete():1897:1898 -> onOperateComplete
-    4:4:void onOperateComplete():1900:1900 -> onOperateComplete
-    5:6:void onOperateComplete():1903:1904 -> onOperateComplete
-    7:8:void onOperateComplete():1906:1907 -> onOperateComplete
-    9:12:void onOperateComplete():1911:1914 -> onOperateComplete
-    13:13:void onOperateComplete():1918:1918 -> onOperateComplete
-    14:14:void onOperateComplete():1920:1920 -> onOperateComplete
-    15:15:void onOperateComplete():1922:1922 -> onOperateComplete
-    16:16:void onOperateComplete():1924:1924 -> onOperateComplete
-    17:20:void onOperateComplete():1926:1929 -> onOperateComplete
-    21:21:void onOperateComplete():1925:1925 -> onOperateComplete
-    22:24:void onOperateComplete():1933:1935 -> onOperateComplete
-    25:25:void onOperateComplete():1940:1940 -> onOperateComplete
-    26:26:void onOperateComplete():1942:1942 -> onOperateComplete
+    1:2:void next():2136:2137 -> next
+    1:1:void onAttackComplete():1873:1873 -> onAttackComplete
+    2:2:void onAttackComplete():1875:1875 -> onAttackComplete
+    3:4:void onAttackComplete():1877:1878 -> onAttackComplete
+    5:6:void onAttackComplete():1880:1881 -> onAttackComplete
+    7:7:void onAttackComplete():1884:1884 -> onAttackComplete
+    8:8:void onAttackComplete():1886:1886 -> onAttackComplete
+    1:1:void onMotionComplete():1891:1891 -> onMotionComplete
+    1:1:void onOperateComplete():1897:1897 -> onOperateComplete
+    2:3:void onOperateComplete():1899:1900 -> onOperateComplete
+    4:4:void onOperateComplete():1902:1902 -> onOperateComplete
+    5:6:void onOperateComplete():1905:1906 -> onOperateComplete
+    7:8:void onOperateComplete():1908:1909 -> onOperateComplete
+    9:12:void onOperateComplete():1913:1916 -> onOperateComplete
+    13:13:void onOperateComplete():1920:1920 -> onOperateComplete
+    14:14:void onOperateComplete():1922:1922 -> onOperateComplete
+    15:15:void onOperateComplete():1924:1924 -> onOperateComplete
+    16:16:void onOperateComplete():1926:1926 -> onOperateComplete
+    17:20:void onOperateComplete():1928:1931 -> onOperateComplete
+    21:21:void onOperateComplete():1927:1927 -> onOperateComplete
+    22:24:void onOperateComplete():1935:1937 -> onOperateComplete
+    25:25:void onOperateComplete():1942:1942 -> onOperateComplete
+    26:26:void onOperateComplete():1944:1944 -> onOperateComplete
     1:3:int pointsInTalent(com.eternalpixel.eternalpixeldungeon.actors.hero.Talent):343:345 -> pointsInTalent
     1:9:void preview(com.eternalpixel.eternalpixeldungeon.GamesInProgress$Info,com.watabou.utils.Bundle):327:335 -> preview
     1:4:void ready():761:764 -> ready
     5:5:void ready():766:766 -> ready
     6:6:void ready():768:768 -> ready
-    1:4:void reallyDie(java.lang.Object):1764:1767 -> reallyDie
-    5:5:void reallyDie(java.lang.Object):1771:1771 -> reallyDie
-    6:6:void reallyDie(java.lang.Object):1773:1773 -> reallyDie
-    7:9:void reallyDie(java.lang.Object):1775:1777 -> reallyDie
-    10:10:void reallyDie(java.lang.Object):1782:1782 -> reallyDie
-    11:12:void reallyDie(java.lang.Object):1784:1785 -> reallyDie
-    13:13:void reallyDie(java.lang.Object):1787:1787 -> reallyDie
-    14:14:void reallyDie(java.lang.Object):1789:1789 -> reallyDie
-    15:19:void reallyDie(java.lang.Object):1791:1795 -> reallyDie
-    20:20:void reallyDie(java.lang.Object):1798:1798 -> reallyDie
-    21:23:void reallyDie(java.lang.Object):1800:1802 -> reallyDie
-    24:26:void reallyDie(java.lang.Object):1806:1808 -> reallyDie
-    27:29:void reallyDie(java.lang.Object):1811:1813 -> reallyDie
-    30:30:void reallyDie(java.lang.Object):1817:1817 -> reallyDie
-    31:32:void reallyDie(java.lang.Object):1819:1820 -> reallyDie
-    33:33:void reallyDie(java.lang.Object):1823:1823 -> reallyDie
-    1:1:void remove(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1684:1684 -> remove
-    2:2:void remove(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1686:1686 -> remove
+    1:4:void reallyDie(java.lang.Object):1766:1769 -> reallyDie
+    5:5:void reallyDie(java.lang.Object):1773:1773 -> reallyDie
+    6:6:void reallyDie(java.lang.Object):1775:1775 -> reallyDie
+    7:9:void reallyDie(java.lang.Object):1777:1779 -> reallyDie
+    10:10:void reallyDie(java.lang.Object):1784:1784 -> reallyDie
+    11:12:void reallyDie(java.lang.Object):1786:1787 -> reallyDie
+    13:13:void reallyDie(java.lang.Object):1789:1789 -> reallyDie
+    14:14:void reallyDie(java.lang.Object):1791:1791 -> reallyDie
+    15:19:void reallyDie(java.lang.Object):1793:1797 -> reallyDie
+    20:20:void reallyDie(java.lang.Object):1800:1800 -> reallyDie
+    21:23:void reallyDie(java.lang.Object):1802:1804 -> reallyDie
+    24:26:void reallyDie(java.lang.Object):1808:1810 -> reallyDie
+    27:29:void reallyDie(java.lang.Object):1813:1815 -> reallyDie
+    30:30:void reallyDie(java.lang.Object):1819:1819 -> reallyDie
+    31:32:void reallyDie(java.lang.Object):1821:1822 -> reallyDie
+    33:33:void reallyDie(java.lang.Object):1825:1825 -> reallyDie
+    1:1:void remove(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1686:1686 -> remove
+    2:2:void remove(com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff):1688:1688 -> remove
     1:1:void rest(boolean):1167:1167 -> rest
     2:3:void rest(boolean):1169:1170 -> rest
     4:5:void rest(boolean):1172:1173 -> rest
@@ -8402,47 +8411,47 @@ com.eternalpixel.eternalpixeldungeon.actors.hero.Hero -> com.eternalpixel.eterna
     11:11:void restoreFromBundle(com.watabou.utils.Bundle):321:321 -> restoreFromBundle
     12:12:void restoreFromBundle(com.watabou.utils.Bundle):323:323 -> restoreFromBundle
     1:4:void resume():782:785 -> resume
-    1:2:void resurrect():2103:2104 -> resurrect
-    3:3:void resurrect():2106:2106 -> resurrect
-    4:5:void resurrect():2108:2109 -> resurrect
-    6:13:void resurrect():2115:2122 -> resurrect
-    14:14:void resurrect():2124:2124 -> resurrect
-    15:16:void resurrect():2126:2127 -> resurrect
-    1:1:boolean search(boolean):1962:1962 -> search
-    2:4:boolean search(boolean):1966:1968 -> search
-    5:6:boolean search(boolean):1970:1971 -> search
-    7:7:boolean search(boolean):1974:1974 -> search
-    8:8:boolean search(boolean):1982:1982 -> search
-    9:10:boolean search(boolean):1984:1985 -> search
-    11:11:boolean search(boolean):1987:1987 -> search
-    12:12:boolean search(boolean):1991:1991 -> search
-    13:15:boolean search(boolean):1993:1995 -> search
-    16:16:boolean search(boolean):1998:1998 -> search
-    17:17:boolean search(boolean):2001:2001 -> search
-    18:20:boolean search(boolean):2003:2005 -> search
-    21:21:boolean search(boolean):2007:2007 -> search
-    22:23:boolean search(boolean):2009:2010 -> search
-    24:24:boolean search(boolean):2012:2012 -> search
-    25:25:boolean search(boolean):2016:2016 -> search
-    26:26:boolean search(boolean):2019:2019 -> search
-    27:27:boolean search(boolean):2021:2021 -> search
-    28:28:boolean search(boolean):2029:2029 -> search
-    29:30:boolean search(boolean):2041:2042 -> search
-    31:31:boolean search(boolean):2046:2046 -> search
-    32:32:boolean search(boolean):2049:2049 -> search
-    33:33:boolean search(boolean):2051:2051 -> search
-    34:34:boolean search(boolean):2053:2053 -> search
-    35:35:boolean search(boolean):2055:2055 -> search
-    36:36:boolean search(boolean):2057:2057 -> search
-    37:37:boolean search(boolean):2059:2059 -> search
-    38:38:boolean search(boolean):2063:2063 -> search
-    39:39:boolean search(boolean):2065:2065 -> search
-    40:42:boolean search(boolean):2075:2077 -> search
-    43:44:boolean search(boolean):2079:2080 -> search
-    45:45:boolean search(boolean):2082:2082 -> search
-    46:46:boolean search(boolean):2085:2085 -> search
-    47:49:boolean search(boolean):2090:2092 -> search
-    50:50:boolean search(boolean):2096:2096 -> search
+    1:2:void resurrect():2105:2106 -> resurrect
+    3:3:void resurrect():2108:2108 -> resurrect
+    4:5:void resurrect():2110:2111 -> resurrect
+    6:13:void resurrect():2117:2124 -> resurrect
+    14:14:void resurrect():2126:2126 -> resurrect
+    15:16:void resurrect():2128:2129 -> resurrect
+    1:1:boolean search(boolean):1964:1964 -> search
+    2:4:boolean search(boolean):1968:1970 -> search
+    5:6:boolean search(boolean):1972:1973 -> search
+    7:7:boolean search(boolean):1976:1976 -> search
+    8:8:boolean search(boolean):1984:1984 -> search
+    9:10:boolean search(boolean):1986:1987 -> search
+    11:11:boolean search(boolean):1989:1989 -> search
+    12:12:boolean search(boolean):1993:1993 -> search
+    13:15:boolean search(boolean):1995:1997 -> search
+    16:16:boolean search(boolean):2000:2000 -> search
+    17:17:boolean search(boolean):2003:2003 -> search
+    18:20:boolean search(boolean):2005:2007 -> search
+    21:21:boolean search(boolean):2009:2009 -> search
+    22:23:boolean search(boolean):2011:2012 -> search
+    24:24:boolean search(boolean):2014:2014 -> search
+    25:25:boolean search(boolean):2018:2018 -> search
+    26:26:boolean search(boolean):2021:2021 -> search
+    27:27:boolean search(boolean):2023:2023 -> search
+    28:28:boolean search(boolean):2031:2031 -> search
+    29:30:boolean search(boolean):2043:2044 -> search
+    31:31:boolean search(boolean):2048:2048 -> search
+    32:32:boolean search(boolean):2051:2051 -> search
+    33:33:boolean search(boolean):2053:2053 -> search
+    34:34:boolean search(boolean):2055:2055 -> search
+    35:35:boolean search(boolean):2057:2057 -> search
+    36:36:boolean search(boolean):2059:2059 -> search
+    37:37:boolean search(boolean):2061:2061 -> search
+    38:38:boolean search(boolean):2065:2065 -> search
+    39:39:boolean search(boolean):2067:2067 -> search
+    40:42:boolean search(boolean):2077:2079 -> search
+    43:44:boolean search(boolean):2081:2082 -> search
+    45:45:boolean search(boolean):2084:2084 -> search
+    46:46:boolean search(boolean):2087:2087 -> search
+    47:49:boolean search(boolean):2092:2094 -> search
+    50:50:boolean search(boolean):2098:2098 -> search
     1:1:boolean shoot(com.eternalpixel.eternalpixeldungeon.actors.Char,com.eternalpixel.eternalpixeldungeon.items.weapon.missiles.MissileWeapon):446:446 -> shoot
     2:5:boolean shoot(com.eternalpixel.eternalpixeldungeon.actors.Char,com.eternalpixel.eternalpixeldungeon.items.weapon.missiles.MissileWeapon):450:453 -> shoot
     6:7:boolean shoot(com.eternalpixel.eternalpixeldungeon.actors.Char,com.eternalpixel.eternalpixeldungeon.items.weapon.missiles.MissileWeapon):455:456 -> shoot
@@ -8462,8 +8471,8 @@ com.eternalpixel.eternalpixeldungeon.actors.hero.Hero -> com.eternalpixel.eterna
     5:5:void spend(float):649:649 -> spend
     6:6:void spend(float):653:653 -> spend
     1:3:void spendAndNext(float):657:659 -> spendAndNext
-    1:1:float stealth():1691:1691 -> stealth
-    2:3:float stealth():1693:1694 -> stealth
+    1:1:float stealth():1693:1693 -> stealth
+    2:3:float stealth():1695:1696 -> stealth
     1:1:void storeInBundle(com.watabou.utils.Bundle):283:283 -> storeInBundle
     2:5:void storeInBundle(com.watabou.utils.Bundle):285:288 -> storeInBundle
     6:7:void storeInBundle(com.watabou.utils.Bundle):290:291 -> storeInBundle
@@ -8498,8 +8507,8 @@ com.eternalpixel.eternalpixeldungeon.actors.hero.Hero$3 -> com.eternalpixel.eter
     1:3:boolean act():1207:1209 -> act
     4:4:boolean act():1211:1211 -> act
 com.eternalpixel.eternalpixeldungeon.actors.hero.Hero$4 -> com.eternalpixel.eternalpixeldungeon.actors.hero.Hero$4:
-    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,com.eternalpixel.eternalpixeldungeon.items.Ankh):1746:1746 -> <init>
-    1:1:void call():1749:1749 -> call
+    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,com.eternalpixel.eternalpixeldungeon.items.Ankh):1748:1748 -> <init>
+    1:1:void call():1751:1751 -> call
 com.eternalpixel.eternalpixeldungeon.actors.hero.Hero$5 -> com.eternalpixel.eternalpixeldungeon.actors.hero.Hero$5:
     1:1:void <clinit>():1196:1196 -> <clinit>
     2:2:void <clinit>():979:979 -> <clinit>
@@ -8528,63 +8537,64 @@ com.eternalpixel.eternalpixeldungeon.actors.hero.HeroAction$PickUp -> com.eterna
 com.eternalpixel.eternalpixeldungeon.actors.hero.HeroAction$Unlock -> com.eternalpixel.eternalpixeldungeon.actors.hero.HeroAction$Unlock:
     1:2:void <init>(int):70:71 -> <init>
 com.eternalpixel.eternalpixeldungeon.actors.hero.HeroClass -> com.eternalpixel.eternalpixeldungeon.actors.hero.HeroClass:
-    1:5:void <clinit>():79:83 -> <clinit>
-    6:6:void <clinit>():77:77 -> <clinit>
-    1:2:void <init>(java.lang.String,int,com.eternalpixel.eternalpixeldungeon.actors.hero.HeroSubClass[]):87:88 -> <init>
-    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():246:246 -> armorAbilities
-    2:2:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():248:248 -> armorAbilities
-    3:3:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():254:254 -> armorAbilities
-    4:4:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():252:252 -> armorAbilities
-    5:5:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():250:250 -> armorAbilities
-    1:1:java.lang.String desc():238:238 -> desc
-    1:1:void initAugur(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):222:222 -> initAugur
-    2:5:void initAugur(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):224:227 -> initAugur
-    6:7:void initAugur(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):229:230 -> initAugur
-    1:2:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):93:94 -> initHero
-    3:4:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):96:97 -> initHero
-    5:6:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):99:100 -> initHero
-    7:16:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):102:111 -> initHero
-    17:18:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):113:114 -> initHero
-    19:19:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):116:116 -> initHero
-    20:20:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):118:118 -> initHero
-    21:21:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):136:136 -> initHero
-    22:22:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):132:132 -> initHero
-    23:23:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):128:128 -> initHero
-    24:24:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):124:124 -> initHero
-    25:25:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):120:120 -> initHero
-    26:28:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):140:142 -> initHero
-    1:3:void initHuntress(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):210:212 -> initHuntress
-    4:4:void initHuntress(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):214:214 -> initHuntress
-    5:6:void initHuntress(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):216:217 -> initHuntress
-    1:1:void initMage(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):180:180 -> initMage
-    2:3:void initMage(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):182:183 -> initMage
-    4:4:void initMage(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):185:185 -> initMage
-    5:6:void initMage(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):187:188 -> initMage
-    1:1:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):192:192 -> initRogue
-    2:4:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):194:196 -> initRogue
-    5:6:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):198:199 -> initRogue
-    7:8:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):201:202 -> initRogue
-    9:10:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):204:205 -> initRogue
-    1:4:void initWarrior(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):164:167 -> initWarrior
-    5:6:void initWarrior(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):169:170 -> initWarrior
-    7:8:void initWarrior(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):173:174 -> initWarrior
-    1:1:boolean isUnlocked():325:325 -> isUnlocked
-    2:2:boolean isUnlocked():327:327 -> isUnlocked
-    3:3:boolean isUnlocked():335:335 -> isUnlocked
-    4:4:boolean isUnlocked():333:333 -> isUnlocked
-    5:5:boolean isUnlocked():331:331 -> isUnlocked
-    1:1:java.lang.String splashArt():274:274 -> splashArt
-    1:1:java.lang.String spritesheet():259:259 -> spritesheet
-    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.HeroSubClass[] subClasses():242:242 -> subClasses
-    1:1:java.lang.String title():234:234 -> title
-    1:1:java.lang.String unlockMsg():340:340 -> unlockMsg
-    2:2:java.lang.String unlockMsg():348:348 -> unlockMsg
-    3:3:java.lang.String unlockMsg():346:346 -> unlockMsg
-    4:4:java.lang.String unlockMsg():344:344 -> unlockMsg
-    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.HeroClass valueOf(java.lang.String):77:77 -> valueOf
-    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.HeroClass[] values():77:77 -> values
+    1:5:void <clinit>():80:84 -> <clinit>
+    6:6:void <clinit>():78:78 -> <clinit>
+    1:2:void <init>(java.lang.String,int,com.eternalpixel.eternalpixeldungeon.actors.hero.HeroSubClass[]):88:89 -> <init>
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():250:250 -> armorAbilities
+    2:2:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():252:252 -> armorAbilities
+    3:3:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():258:258 -> armorAbilities
+    4:4:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():256:256 -> armorAbilities
+    5:5:com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.ArmorAbility[] armorAbilities():254:254 -> armorAbilities
+    1:1:java.lang.String desc():242:242 -> desc
+    1:1:void initAugur(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):226:226 -> initAugur
+    2:5:void initAugur(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):228:231 -> initAugur
+    6:7:void initAugur(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):233:234 -> initAugur
+    1:2:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):94:95 -> initHero
+    3:4:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):97:98 -> initHero
+    5:6:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):100:101 -> initHero
+    7:16:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):103:112 -> initHero
+    17:18:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):114:115 -> initHero
+    19:20:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):117:118 -> initHero
+    21:21:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):120:120 -> initHero
+    22:22:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):122:122 -> initHero
+    23:23:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):140:140 -> initHero
+    24:24:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):136:136 -> initHero
+    25:25:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):132:132 -> initHero
+    26:26:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):128:128 -> initHero
+    27:27:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):124:124 -> initHero
+    28:30:void initHero(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):144:146 -> initHero
+    1:3:void initHuntress(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):214:216 -> initHuntress
+    4:4:void initHuntress(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):218:218 -> initHuntress
+    5:6:void initHuntress(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):220:221 -> initHuntress
+    1:1:void initMage(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):184:184 -> initMage
+    2:3:void initMage(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):186:187 -> initMage
+    4:4:void initMage(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):189:189 -> initMage
+    5:6:void initMage(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):191:192 -> initMage
+    1:1:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):196:196 -> initRogue
+    2:4:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):198:200 -> initRogue
+    5:6:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):202:203 -> initRogue
+    7:8:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):205:206 -> initRogue
+    9:10:void initRogue(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):208:209 -> initRogue
+    1:4:void initWarrior(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):168:171 -> initWarrior
+    5:6:void initWarrior(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):173:174 -> initWarrior
+    7:8:void initWarrior(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):177:178 -> initWarrior
+    1:1:boolean isUnlocked():329:329 -> isUnlocked
+    2:2:boolean isUnlocked():331:331 -> isUnlocked
+    3:3:boolean isUnlocked():339:339 -> isUnlocked
+    4:4:boolean isUnlocked():337:337 -> isUnlocked
+    5:5:boolean isUnlocked():335:335 -> isUnlocked
+    1:1:java.lang.String splashArt():278:278 -> splashArt
+    1:1:java.lang.String spritesheet():263:263 -> spritesheet
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.HeroSubClass[] subClasses():246:246 -> subClasses
+    1:1:java.lang.String title():238:238 -> title
+    1:1:java.lang.String unlockMsg():344:344 -> unlockMsg
+    2:2:java.lang.String unlockMsg():352:352 -> unlockMsg
+    3:3:java.lang.String unlockMsg():350:350 -> unlockMsg
+    4:4:java.lang.String unlockMsg():348:348 -> unlockMsg
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.HeroClass valueOf(java.lang.String):78:78 -> valueOf
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.HeroClass[] values():78:78 -> values
 com.eternalpixel.eternalpixeldungeon.actors.hero.HeroClass$1 -> com.eternalpixel.eternalpixeldungeon.actors.hero.HeroClass$1:
-    1:1:void <clinit>():118:118 -> <clinit>
+    1:1:void <clinit>():122:122 -> <clinit>
 com.eternalpixel.eternalpixeldungeon.actors.hero.HeroSubClass -> com.eternalpixel.eternalpixeldungeon.actors.hero.HeroSubClass:
     1:1:void <clinit>():33:33 -> <clinit>
     2:3:void <clinit>():35:36 -> <clinit>
@@ -12855,42 +12865,44 @@ com.eternalpixel.eternalpixeldungeon.effects.MagicMissile -> com.eternalpixel.et
     1:1:void <init>():45:45 -> <init>
     1:3:com.eternalpixel.eternalpixeldungeon.effects.MagicMissile boltFromChar(com.watabou.noosa.Group,int,com.watabou.noosa.Visual,int,com.watabou.utils.Callback):264:266 -> boltFromChar
     4:4:com.eternalpixel.eternalpixeldungeon.effects.MagicMissile boltFromChar(com.watabou.noosa.Group,int,com.watabou.noosa.Visual,int,com.watabou.utils.Callback):268:268 -> boltFromChar
-    1:2:void reset(int,com.watabou.noosa.Visual,int,com.watabou.utils.Callback):106:107 -> reset
-    3:3:void reset(int,com.watabou.noosa.Visual,int,com.watabou.utils.Callback):105:105 -> reset
-    4:4:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):112:112 -> reset
-    5:5:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):114:114 -> reset
-    6:9:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):116:119 -> reset
-    10:14:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):121:125 -> reset
-    15:16:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):129:130 -> reset
-    17:18:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):240:241 -> reset
-    19:20:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):236:237 -> reset
-    21:22:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):232:233 -> reset
-    23:24:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):228:229 -> reset
-    25:26:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):224:225 -> reset
-    27:28:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):220:221 -> reset
-    29:30:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):216:217 -> reset
-    31:32:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):212:213 -> reset
-    33:34:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):208:209 -> reset
-    35:36:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):204:205 -> reset
-    37:38:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):200:201 -> reset
-    39:40:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):196:197 -> reset
-    41:42:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):192:193 -> reset
-    43:44:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):187:188 -> reset
-    45:46:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):183:184 -> reset
-    47:48:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):179:180 -> reset
-    49:50:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):175:176 -> reset
-    51:52:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):171:172 -> reset
-    53:54:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):166:167 -> reset
-    55:56:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):162:163 -> reset
-    57:58:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):158:159 -> reset
-    59:60:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):154:155 -> reset
-    61:61:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):151:151 -> reset
-    62:62:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):148:148 -> reset
-    63:64:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):144:145 -> reset
-    65:66:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):140:141 -> reset
-    67:68:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):136:137 -> reset
-    69:69:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):133:133 -> reset
-    70:70:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):245:245 -> reset
+    1:2:void reset(int,int,int,com.watabou.utils.Callback):92:93 -> reset
+    3:3:void reset(int,int,int,com.watabou.utils.Callback):91:91 -> reset
+    4:5:void reset(int,com.watabou.noosa.Visual,int,com.watabou.utils.Callback):106:107 -> reset
+    6:6:void reset(int,com.watabou.noosa.Visual,int,com.watabou.utils.Callback):105:105 -> reset
+    7:7:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):112:112 -> reset
+    8:8:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):114:114 -> reset
+    9:12:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):116:119 -> reset
+    13:17:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):121:125 -> reset
+    18:19:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):129:130 -> reset
+    20:21:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):240:241 -> reset
+    22:23:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):236:237 -> reset
+    24:25:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):232:233 -> reset
+    26:27:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):228:229 -> reset
+    28:29:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):224:225 -> reset
+    30:31:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):220:221 -> reset
+    32:33:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):216:217 -> reset
+    34:35:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):212:213 -> reset
+    36:37:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):208:209 -> reset
+    38:39:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):204:205 -> reset
+    40:41:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):200:201 -> reset
+    42:43:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):196:197 -> reset
+    44:45:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):192:193 -> reset
+    46:47:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):187:188 -> reset
+    48:49:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):183:184 -> reset
+    50:51:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):179:180 -> reset
+    52:53:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):175:176 -> reset
+    54:55:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):171:172 -> reset
+    56:57:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):166:167 -> reset
+    58:59:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):162:163 -> reset
+    60:61:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):158:159 -> reset
+    62:63:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):154:155 -> reset
+    64:64:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):151:151 -> reset
+    65:65:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):148:148 -> reset
+    66:67:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):144:145 -> reset
+    68:69:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):140:141 -> reset
+    70:71:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):136:137 -> reset
+    72:72:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):133:133 -> reset
+    73:73:void reset(int,com.watabou.utils.PointF,com.watabou.utils.PointF,com.watabou.utils.Callback):245:245 -> reset
     1:5:void setSpeed(float):255:259 -> setSpeed
     1:3:void size(float):249:251 -> size
     1:8:void update():280:287 -> update
@@ -15574,62 +15586,88 @@ com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot -> com.eternalp
     1:1:void <init>():36:36 -> <init>
     2:3:void <init>():42:43 -> <init>
     4:8:void <init>():46:50 -> <init>
-    9:9:void <init>():222:222 -> <init>
+    9:9:void <init>():229:229 -> <init>
     1:1:int access$000(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):36:36 -> access$000
     1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$100():36:36 -> access$100
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$1000():36:36 -> access$1000
     1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$200():36:36 -> access$200
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$300():36:36 -> access$300
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$400():36:36 -> access$400
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$500():36:36 -> access$500
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$600():36:36 -> access$600
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$700():36:36 -> access$700
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$800():36:36 -> access$800
+    1:1:com.eternalpixel.eternalpixeldungeon.actors.hero.Hero access$900():36:36 -> access$900
     1:1:java.util.ArrayList actions(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):55:55 -> actions
     2:4:java.util.ArrayList actions(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):57:59 -> actions
     5:5:java.util.ArrayList actions(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero):61:61 -> actions
-    1:1:void changeCard():135:135 -> changeCard
-    2:2:void changeCard():149:149 -> changeCard
-    3:3:void changeCard():146:146 -> changeCard
-    4:4:void changeCard():143:143 -> changeCard
-    5:5:void changeCard():140:140 -> changeCard
-    6:6:void changeCard():137:137 -> changeCard
-    1:2:void charge(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,float):161:162 -> charge
-    3:5:void charge(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,float):164:166 -> charge
+    1:1:void changeCard():140:140 -> changeCard
+    2:2:void changeCard():157:157 -> changeCard
+    3:3:void changeCard():154:154 -> changeCard
+    4:4:void changeCard():151:151 -> changeCard
+    5:5:void changeCard():148:148 -> changeCard
+    6:6:void changeCard():145:145 -> changeCard
+    7:7:void changeCard():142:142 -> changeCard
+    1:2:void charge(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,float):168:169 -> charge
+    3:5:void charge(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,float):171:173 -> charge
     1:1:void execute(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,java.lang.String):72:72 -> execute
     2:2:void execute(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,java.lang.String):74:74 -> execute
     3:6:void execute(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,java.lang.String):76:79 -> execute
-    7:8:void execute(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,java.lang.String):81:82 -> execute
-    9:11:void execute(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,java.lang.String):84:86 -> execute
+    7:9:void execute(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,java.lang.String):81:83 -> execute
+    10:11:void execute(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,java.lang.String):85:86 -> execute
     12:19:void execute(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,java.lang.String):91:98 -> execute
     20:23:void execute(com.eternalpixel.eternalpixeldungeon.actors.hero.Hero,java.lang.String):102:105 -> execute
-    1:1:com.eternalpixel.eternalpixeldungeon.items.artifacts.Artifact$ArtifactBuff passiveBuff():156:156 -> passiveBuff
-    1:4:void restoreFromBundle(com.watabou.utils.Bundle):212:215 -> restoreFromBundle
-    5:6:void restoreFromBundle(com.watabou.utils.Bundle):217:218 -> restoreFromBundle
+    1:1:void fireCard(int,int):348:348 -> fireCard
+    2:2:void fireCard(int,int):350:350 -> fireCard
+    1:1:com.eternalpixel.eternalpixeldungeon.items.artifacts.Artifact$ArtifactBuff passiveBuff():163:163 -> passiveBuff
+    1:4:void restoreFromBundle(com.watabou.utils.Bundle):219:222 -> restoreFromBundle
+    5:6:void restoreFromBundle(com.watabou.utils.Bundle):224:225 -> restoreFromBundle
     1:1:void selectEffect():111:111 -> selectEffect
-    2:4:void selectEffect():119:121 -> selectEffect
-    5:5:void selectEffect():116:116 -> selectEffect
-    6:6:void selectEffect():113:113 -> selectEffect
-    1:4:void storeInBundle(com.watabou.utils.Bundle):204:207 -> storeInBundle
+    2:2:void selectEffect():128:128 -> selectEffect
+    3:3:void selectEffect():125:125 -> selectEffect
+    4:7:void selectEffect():119:122 -> selectEffect
+    8:8:void selectEffect():116:116 -> selectEffect
+    9:9:void selectEffect():113:113 -> selectEffect
+    1:4:void storeInBundle(com.watabou.utils.Bundle):211:214 -> storeInBundle
 com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$1 -> com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$1:
-    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):222:222 -> <init>
-    1:1:void onSelect(java.lang.Integer):228:228 -> onSelect
-    2:5:void onSelect(java.lang.Integer):230:233 -> onSelect
-    6:6:void onSelect(java.lang.Integer):236:236 -> onSelect
-    7:7:void onSelect(java.lang.Integer):238:238 -> onSelect
-    1:1:java.lang.String prompt():246:246 -> prompt
+    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):229:229 -> <init>
+    1:1:void onSelect(java.lang.Integer):235:235 -> onSelect
+    2:2:void onSelect(java.lang.Integer):237:237 -> onSelect
+    3:3:void onSelect(java.lang.Integer):269:269 -> onSelect
+    4:4:void onSelect(java.lang.Integer):254:254 -> onSelect
+    5:5:void onSelect(java.lang.Integer):265:265 -> onSelect
+    6:9:void onSelect(java.lang.Integer):239:242 -> onSelect
+    10:10:void onSelect(java.lang.Integer):247:247 -> onSelect
+    11:11:void onSelect(java.lang.Integer):250:250 -> onSelect
+    1:1:java.lang.String prompt():277:277 -> prompt
+com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$1$1 -> com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$1$1:
+    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$1,java.lang.Integer):254:254 -> <init>
+    1:1:void call():257:257 -> call
+    2:4:void call():259:261 -> call
+com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$2 -> com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$2:
+    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot,int):350:350 -> <init>
+    1:6:void call():353:358 -> call
+    7:7:void call():360:360 -> call
+    8:8:void call():372:372 -> call
 com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$rogueCard -> com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$rogueCard:
-    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):250:250 -> <init>
-    2:3:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):252:253 -> <init>
-    4:4:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):256:256 -> <init>
-    1:1:boolean act():261:261 -> act
-    2:4:boolean act():263:265 -> act
-    5:5:boolean act():268:268 -> act
-    6:7:boolean act():270:271 -> act
-    8:8:boolean act():276:276 -> act
-    1:2:void prolong():284:285 -> prolong
-    1:2:void restoreFromBundle(com.watabou.utils.Bundle):308:309 -> restoreFromBundle
-    1:2:void storeInBundle(com.watabou.utils.Bundle):302:303 -> storeInBundle
+    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):281:281 -> <init>
+    2:3:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):283:284 -> <init>
+    4:4:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):287:287 -> <init>
+    1:1:boolean act():292:292 -> act
+    2:4:boolean act():294:296 -> act
+    5:5:boolean act():299:299 -> act
+    6:7:boolean act():301:302 -> act
+    8:8:boolean act():307:307 -> act
+    1:2:void prolong():315:316 -> prolong
+    1:2:void restoreFromBundle(com.watabou.utils.Bundle):339:340 -> restoreFromBundle
+    1:2:void storeInBundle(com.watabou.utils.Bundle):333:334 -> storeInBundle
 com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$tarotRecharge -> com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$tarotRecharge:
-    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):171:171 -> <init>
-    1:2:boolean act():174:175 -> act
-    3:4:boolean act():177:178 -> act
-    5:5:boolean act():180:180 -> act
-    6:6:boolean act():184:184 -> act
-    7:8:boolean act():187:188 -> act
+    1:1:void <init>(com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot):178:178 -> <init>
+    1:2:boolean act():181:182 -> act
+    3:4:boolean act():184:185 -> act
+    5:5:boolean act():187:187 -> act
+    6:6:boolean act():191:191 -> act
+    7:8:boolean act():194:195 -> act
 com.eternalpixel.eternalpixeldungeon.items.artifacts.SandalsOfNature -> com.eternalpixel.eternalpixeldungeon.items.artifacts.SandalsOfNature:
     1:1:void <init>():50:50 -> <init>
     2:2:void <init>():53:53 -> <init>
@@ -17728,10 +17766,10 @@ com.eternalpixel.eternalpixeldungeon.items.scrolls.Scroll$ScrollToStone -> com.e
     5:5:com.eternalpixel.eternalpixeldungeon.items.Item sampleOutput(java.util.ArrayList):343:343 -> sampleOutput
     1:3:boolean testIngredients(java.util.ArrayList):308:310 -> testIngredients
 com.eternalpixel.eternalpixeldungeon.items.scrolls.ScrollOfDebugging -> com.eternalpixel.eternalpixeldungeon.items.scrolls.ScrollOfDebugging:
-    1:1:void <init>():13:13 -> <init>
-    2:2:void <init>():15:15 -> <init>
-    1:2:void doRead():22:23 -> doRead
-    3:4:void doRead():26:27 -> doRead
+    1:1:void <init>():19:19 -> <init>
+    2:2:void <init>():21:21 -> <init>
+    1:2:void doRead():28:29 -> doRead
+    3:14:void doRead():32:43 -> doRead
 com.eternalpixel.eternalpixeldungeon.items.scrolls.ScrollOfIdentify -> com.eternalpixel.eternalpixeldungeon.items.scrolls.ScrollOfIdentify:
     1:1:void <init>():31:31 -> <init>
     2:2:void <init>():34:34 -> <init>
@@ -21434,29 +21472,29 @@ com.eternalpixel.eternalpixeldungeon.levels.Level -> com.eternalpixel.eternalpix
     4:4:void <init>():147:147 -> <init>
     5:5:void <init>():157:157 -> <init>
     6:7:void <init>():161:162 -> <init>
-    8:8:void <init>():452:452 -> <init>
-    1:1:void addItemToSpawn(com.eternalpixel.eternalpixeldungeon.items.Item):620:620 -> addItemToSpawn
-    1:3:com.eternalpixel.eternalpixeldungeon.actors.Actor addRespawner():536:538 -> addRespawner
-    4:4:com.eternalpixel.eternalpixeldungeon.actors.Actor addRespawner():540:540 -> addRespawner
-    5:5:com.eternalpixel.eternalpixeldungeon.actors.Actor addRespawner():542:542 -> addRespawner
-    1:1:com.watabou.noosa.Group addVisuals():503:503 -> addVisuals
-    2:3:com.watabou.noosa.Group addVisuals():506:507 -> addVisuals
-    4:4:com.watabou.noosa.Group addVisuals():504:504 -> addVisuals
-    5:9:com.watabou.noosa.Group addVisuals():509:513 -> addVisuals
-    10:10:com.watabou.noosa.Group addVisuals():517:517 -> addVisuals
-    1:1:boolean adjacent(int,int):1251:1251 -> adjacent
-    1:10:void buildFlagMaps():648:657 -> buildFlagMaps
-    11:15:void buildFlagMaps():660:664 -> buildFlagMaps
-    16:21:void buildFlagMaps():668:673 -> buildFlagMaps
-    22:27:void buildFlagMaps():675:675 -> buildFlagMaps
-    28:30:void buildFlagMaps():684:686 -> buildFlagMaps
-    31:34:void buildFlagMaps():688:691 -> buildFlagMaps
-    35:35:void buildFlagMaps():693:693 -> buildFlagMaps
-    1:1:com.watabou.utils.Point cellToPoint(int):1272:1272 -> cellToPoint
-    1:2:void cleanWalls():716:717 -> cleanWalls
-    3:3:void cleanWalls():720:720 -> cleanWalls
-    4:6:void cleanWalls():724:726 -> cleanWalls
-    7:7:void cleanWalls():732:732 -> cleanWalls
+    8:8:void <init>():456:456 -> <init>
+    1:1:void addItemToSpawn(com.eternalpixel.eternalpixeldungeon.items.Item):624:624 -> addItemToSpawn
+    1:3:com.eternalpixel.eternalpixeldungeon.actors.Actor addRespawner():540:542 -> addRespawner
+    4:4:com.eternalpixel.eternalpixeldungeon.actors.Actor addRespawner():544:544 -> addRespawner
+    5:5:com.eternalpixel.eternalpixeldungeon.actors.Actor addRespawner():546:546 -> addRespawner
+    1:1:com.watabou.noosa.Group addVisuals():507:507 -> addVisuals
+    2:3:com.watabou.noosa.Group addVisuals():510:511 -> addVisuals
+    4:4:com.watabou.noosa.Group addVisuals():508:508 -> addVisuals
+    5:9:com.watabou.noosa.Group addVisuals():513:517 -> addVisuals
+    10:10:com.watabou.noosa.Group addVisuals():521:521 -> addVisuals
+    1:1:boolean adjacent(int,int):1255:1255 -> adjacent
+    1:10:void buildFlagMaps():652:661 -> buildFlagMaps
+    11:15:void buildFlagMaps():664:668 -> buildFlagMaps
+    16:21:void buildFlagMaps():672:677 -> buildFlagMaps
+    22:27:void buildFlagMaps():679:679 -> buildFlagMaps
+    28:30:void buildFlagMaps():688:690 -> buildFlagMaps
+    31:34:void buildFlagMaps():692:695 -> buildFlagMaps
+    35:35:void buildFlagMaps():697:697 -> buildFlagMaps
+    1:1:com.watabou.utils.Point cellToPoint(int):1276:1276 -> cellToPoint
+    1:2:void cleanWalls():720:721 -> cleanWalls
+    3:3:void cleanWalls():724:724 -> cleanWalls
+    4:6:void cleanWalls():728:730 -> cleanWalls
+    7:7:void cleanWalls():736:736 -> cleanWalls
     1:1:void create():184:184 -> create
     2:2:void create():186:186 -> create
     3:3:void create():188:188 -> create
@@ -21467,225 +21505,226 @@ com.eternalpixel.eternalpixeldungeon.levels.Level -> com.eternalpixel.eternalpix
     15:16:void create():207:208 -> create
     17:17:void create():210:210 -> create
     18:19:void create():213:214 -> create
-    20:20:void create():217:217 -> create
-    21:21:void create():220:220 -> create
-    22:22:void create():243:243 -> create
-    23:23:void create():240:240 -> create
-    24:25:void create():236:237 -> create
-    26:28:void create():231:233 -> create
-    29:29:void create():228:228 -> create
-    30:30:void create():225:225 -> create
-    31:31:void create():222:222 -> create
-    32:32:void create():250:250 -> create
-    33:39:void create():252:258 -> create
-    40:40:void create():260:260 -> create
-    41:42:void create():262:263 -> create
-    43:44:void create():265:266 -> create
-    45:45:void create():268:268 -> create
-    1:2:com.eternalpixel.eternalpixeldungeon.actors.mobs.Mob createMob():455:456 -> createMob
-    3:5:com.eternalpixel.eternalpixeldungeon.actors.mobs.Mob createMob():459:461 -> createMob
-    1:2:void destroy(int):704:705 -> destroy
-    3:3:void destroy(int):707:707 -> destroy
-    4:4:void destroy(int):709:709 -> destroy
-    5:5:void destroy(int):711:711 -> destroy
-    1:2:void disarmTrap(int):876:877 -> disarmTrap
-    1:2:void discover(int):881:882 -> discover
-    3:4:void discover(int):884:885 -> discover
-    1:5:int distance(int,int):1243:1247 -> distance
-    1:1:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):777:777 -> drop
-    2:2:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):788:788 -> drop
-    3:7:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):791:795 -> drop
-    8:9:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):799:800 -> drop
-    10:11:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):796:797 -> drop
-    12:12:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):803:803 -> drop
-    13:13:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):812:812 -> drop
-    14:15:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):815:816 -> drop
-    16:18:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):807:809 -> drop
-    19:21:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):781:783 -> drop
-    1:3:int fallCell(boolean):926:928 -> fallCell
-    1:2:com.eternalpixel.eternalpixeldungeon.actors.mobs.Mob findMob(int):525:526 -> findMob
-    1:1:com.eternalpixel.eternalpixeldungeon.items.Item findPrizeItem():624:624 -> findPrizeItem
-    2:2:com.eternalpixel.eternalpixeldungeon.items.Item findPrizeItem(java.lang.Class):627:627 -> findPrizeItem
-    3:4:com.eternalpixel.eternalpixeldungeon.items.Item findPrizeItem(java.lang.Class):631:632 -> findPrizeItem
-    5:7:com.eternalpixel.eternalpixeldungeon.items.Item findPrizeItem(java.lang.Class):636:638 -> findPrizeItem
-    1:3:java.util.ArrayList getItemsToPreserveFromSealedResurrect():487:489 -> getItemsToPreserveFromSealedResurrect
-    4:6:java.util.ArrayList getItemsToPreserveFromSealedResurrect():491:493 -> getItemsToPreserveFromSealedResurrect
-    7:8:java.util.ArrayList getItemsToPreserveFromSealedResurrect():496:497 -> getItemsToPreserveFromSealedResurrect
-    1:1:int height():435:435 -> height
-    1:1:boolean insideMap(int):1266:1266 -> insideMap
-    1:1:int length():439:439 -> length
-    1:3:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):933:935 -> occupyCell
-    4:4:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):938:938 -> occupyCell
-    5:7:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):940:942 -> occupyCell
-    8:11:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):944:947 -> occupyCell
-    12:13:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):949:950 -> occupyCell
-    14:15:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):952:953 -> occupyCell
-    16:20:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):956:960 -> occupyCell
-    21:21:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):966:966 -> occupyCell
-    22:23:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):968:969 -> occupyCell
-    1:1:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):824:824 -> plant
-    2:2:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):828:828 -> plant
-    3:3:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):830:830 -> plant
-    4:4:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):833:833 -> plant
-    5:6:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):838:839 -> plant
-    7:8:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):842:843 -> plant
-    9:9:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):845:845 -> plant
-    10:14:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):847:851 -> plant
-    1:1:int pointToCell(com.watabou.utils.Point):1276:1276 -> pointToCell
-    1:1:void pressCell(int):976:976 -> pressCell
-    2:2:void pressCell(int,boolean):983:983 -> pressCell
-    3:3:void pressCell(int,boolean):985:985 -> pressCell
-    4:4:void pressCell(int,boolean):995:995 -> pressCell
-    5:6:void pressCell(int,boolean):989:990 -> pressCell
-    7:7:void pressCell(int,boolean):1004:1004 -> pressCell
-    8:8:void pressCell(int,boolean):1000:1000 -> pressCell
-    9:9:void pressCell(int,boolean):1008:1008 -> pressCell
-    10:11:void pressCell(int,boolean):1014:1015 -> pressCell
-    12:13:void pressCell(int,boolean):1017:1018 -> pressCell
-    14:14:void pressCell(int,boolean):1022:1022 -> pressCell
-    15:15:void pressCell(int,boolean):1024:1024 -> pressCell
-    16:16:void pressCell(int,boolean):1026:1026 -> pressCell
-    17:17:void pressCell(int,boolean):1030:1030 -> pressCell
-    18:18:void pressCell(int,boolean):1032:1032 -> pressCell
-    19:19:void pressCell(int,boolean):1034:1034 -> pressCell
-    20:21:void pressCell(int,boolean):1038:1039 -> pressCell
-    22:22:void pressCell(int,boolean):1042:1042 -> pressCell
-    23:23:void pressCell(int,boolean):1047:1047 -> pressCell
-    24:24:void pressCell(int,boolean):1049:1049 -> pressCell
-    25:26:void pressCell(int,boolean):1052:1053 -> pressCell
-    1:3:int randomDestination(com.eternalpixel.eternalpixeldungeon.actors.Char):612:614 -> randomDestination
-    1:2:int randomRespawnCell(com.eternalpixel.eternalpixeldungeon.actors.Char):601:602 -> randomRespawnCell
-    3:4:int randomRespawnCell(com.eternalpixel.eternalpixeldungeon.actors.Char):604:605 -> randomRespawnCell
-    1:1:float respawnCooldown():589:589 -> respawnCooldown
-    2:2:float respawnCooldown():591:591 -> respawnCooldown
-    1:1:void restoreFromBundle(com.watabou.utils.Bundle):312:312 -> restoreFromBundle
-    2:2:void restoreFromBundle(com.watabou.utils.Bundle):319:319 -> restoreFromBundle
-    3:9:void restoreFromBundle(com.watabou.utils.Bundle):321:327 -> restoreFromBundle
-    10:10:void restoreFromBundle(com.watabou.utils.Bundle):329:329 -> restoreFromBundle
-    11:12:void restoreFromBundle(com.watabou.utils.Bundle):331:332 -> restoreFromBundle
-    13:14:void restoreFromBundle(com.watabou.utils.Bundle):334:335 -> restoreFromBundle
-    15:15:void restoreFromBundle(com.watabou.utils.Bundle):337:337 -> restoreFromBundle
-    16:20:void restoreFromBundle(com.watabou.utils.Bundle):339:343 -> restoreFromBundle
-    21:24:void restoreFromBundle(com.watabou.utils.Bundle):346:349 -> restoreFromBundle
-    25:28:void restoreFromBundle(com.watabou.utils.Bundle):352:355 -> restoreFromBundle
-    29:32:void restoreFromBundle(com.watabou.utils.Bundle):358:361 -> restoreFromBundle
-    33:36:void restoreFromBundle(com.watabou.utils.Bundle):364:367 -> restoreFromBundle
-    37:39:void restoreFromBundle(com.watabou.utils.Bundle):370:372 -> restoreFromBundle
-    40:40:void restoreFromBundle(com.watabou.utils.Bundle):374:374 -> restoreFromBundle
-    41:44:void restoreFromBundle(com.watabou.utils.Bundle):378:381 -> restoreFromBundle
-    45:47:void restoreFromBundle(com.watabou.utils.Bundle):384:386 -> restoreFromBundle
-    48:50:void restoreFromBundle(com.watabou.utils.Bundle):388:390 -> restoreFromBundle
-    51:52:void restoreFromBundle(com.watabou.utils.Bundle):394:395 -> restoreFromBundle
-    53:54:void restoreFromBundle(com.watabou.utils.Bundle):398:399 -> restoreFromBundle
-    55:55:void restoreFromBundle(com.watabou.utils.Bundle):316:316 -> restoreFromBundle
-    1:3:void seal():471:473 -> seal
-    1:1:void set(int,int):737:737 -> set
-    2:2:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):741:741 -> set
-    3:3:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):744:744 -> set
-    4:12:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):747:755 -> set
-    13:13:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):757:757 -> set
-    14:15:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):759:760 -> set
-    16:19:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):762:765 -> set
-    20:20:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):767:767 -> set
-    1:1:boolean setCellToWater(boolean,int):889:889 -> setCellToWater
-    2:6:boolean setCellToWater(boolean,int):892:896 -> setCellToWater
-    7:7:boolean setCellToWater(boolean,int):898:898 -> setCellToWater
-    8:8:boolean setCellToWater(boolean,int):904:904 -> setCellToWater
-    9:11:boolean setCellToWater(boolean,int):914:916 -> setCellToWater
-    12:13:boolean setCellToWater(boolean,int):909:910 -> setCellToWater
-    1:3:void setSize(int,int):273:275 -> setSize
-    4:5:void setSize(int,int):277:278 -> setSize
-    6:7:void setSize(int,int):280:281 -> setSize
-    8:8:void setSize(int,int):283:283 -> setSize
-    9:16:void setSize(int,int):285:292 -> setSize
-    17:17:void setSize(int,int):294:294 -> setSize
-    18:18:void setSize(int,int):296:296 -> setSize
-    1:1:com.eternalpixel.eternalpixeldungeon.levels.traps.Trap setTrap(com.eternalpixel.eternalpixeldungeon.levels.traps.Trap,int):865:865 -> setTrap
-    2:2:com.eternalpixel.eternalpixeldungeon.levels.traps.Trap setTrap(com.eternalpixel.eternalpixeldungeon.levels.traps.Trap,int):867:867 -> setTrap
-    3:5:com.eternalpixel.eternalpixeldungeon.levels.traps.Trap setTrap(com.eternalpixel.eternalpixeldungeon.levels.traps.Trap,int):869:871 -> setTrap
-    1:19:void storeInBundle(com.watabou.utils.Bundle):405:423 -> storeInBundle
-    1:1:java.lang.String tileDesc(int):1343:1343 -> tileDesc
-    2:2:java.lang.String tileDesc(int):1347:1347 -> tileDesc
-    3:3:java.lang.String tileDesc(int):1372:1372 -> tileDesc
-    4:4:java.lang.String tileDesc(int):1365:1365 -> tileDesc
-    5:5:java.lang.String tileDesc(int):1361:1361 -> tileDesc
-    6:6:java.lang.String tileDesc(int):1359:1359 -> tileDesc
-    7:7:java.lang.String tileDesc(int):1354:1354 -> tileDesc
-    8:8:java.lang.String tileDesc(int):1352:1352 -> tileDesc
-    9:9:java.lang.String tileDesc(int):1349:1349 -> tileDesc
-    10:10:java.lang.String tileDesc(int):1370:1370 -> tileDesc
-    11:11:java.lang.String tileDesc(int):1367:1367 -> tileDesc
-    12:12:java.lang.String tileDesc(int):1357:1357 -> tileDesc
-    13:13:java.lang.String tileDesc(int):1363:1363 -> tileDesc
-    14:14:java.lang.String tileDesc(int):1374:1374 -> tileDesc
-    15:15:java.lang.String tileDesc(int):1345:1345 -> tileDesc
-    1:1:java.lang.String tileName(int):1281:1281 -> tileName
-    2:2:java.lang.String tileName(int):1337:1337 -> tileName
-    3:3:java.lang.String tileName(int):1308:1308 -> tileName
-    4:4:java.lang.String tileName(int):1292:1292 -> tileName
-    5:5:java.lang.String tileName(int):1335:1335 -> tileName
-    6:6:java.lang.String tileName(int):1333:1333 -> tileName
-    7:7:java.lang.String tileName(int):1329:1329 -> tileName
-    8:8:java.lang.String tileName(int):1324:1324 -> tileName
-    9:9:java.lang.String tileName(int):1322:1322 -> tileName
-    10:10:java.lang.String tileName(int):1320:1320 -> tileName
-    11:11:java.lang.String tileName(int):1318:1318 -> tileName
-    12:12:java.lang.String tileName(int):1331:1331 -> tileName
-    13:13:java.lang.String tileName(int):1316:1316 -> tileName
-    14:14:java.lang.String tileName(int):1314:1314 -> tileName
-    15:15:java.lang.String tileName(int):1312:1312 -> tileName
-    16:16:java.lang.String tileName(int):1310:1310 -> tileName
-    17:17:java.lang.String tileName(int):1306:1306 -> tileName
-    18:18:java.lang.String tileName(int):1304:1304 -> tileName
-    19:19:java.lang.String tileName(int):1302:1302 -> tileName
-    20:20:java.lang.String tileName(int):1300:1300 -> tileName
-    21:21:java.lang.String tileName(int):1298:1298 -> tileName
-    22:22:java.lang.String tileName(int):1296:1296 -> tileName
-    23:23:java.lang.String tileName(int):1326:1326 -> tileName
-    24:24:java.lang.String tileName(int):1290:1290 -> tileName
-    25:25:java.lang.String tileName(int):1288:1288 -> tileName
-    26:26:java.lang.String tileName(int):1283:1283 -> tileName
-    1:5:float trueDistance(int,int):1256:1260 -> trueDistance
-    1:1:int tunnelTile():427:427 -> tunnelTile
-    1:4:void unseal():478:481 -> unseal
-    1:2:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1063:1064 -> updateFieldOfView
-    3:4:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1066:1067 -> updateFieldOfView
-    5:6:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1071:1072 -> updateFieldOfView
-    7:7:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1075:1075 -> updateFieldOfView
-    8:12:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1077:1081 -> updateFieldOfView
-    13:21:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1084:1092 -> updateFieldOfView
-    22:22:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1096:1096 -> updateFieldOfView
-    23:23:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1099:1099 -> updateFieldOfView
-    24:24:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1101:1101 -> updateFieldOfView
-    25:25:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1104:1104 -> updateFieldOfView
-    26:26:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1106:1106 -> updateFieldOfView
-    27:29:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1111:1113 -> updateFieldOfView
-    30:31:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1115:1116 -> updateFieldOfView
-    32:32:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1123:1123 -> updateFieldOfView
-    33:35:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1127:1129 -> updateFieldOfView
-    36:36:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1132:1132 -> updateFieldOfView
-    37:40:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1137:1140 -> updateFieldOfView
-    41:47:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1144:1150 -> updateFieldOfView
-    48:48:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1157:1157 -> updateFieldOfView
-    49:49:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1159:1159 -> updateFieldOfView
-    50:50:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1162:1162 -> updateFieldOfView
-    51:51:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1160:1160 -> updateFieldOfView
-    52:56:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1165:1169 -> updateFieldOfView
-    57:57:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1172:1172 -> updateFieldOfView
-    58:63:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1174:1179 -> updateFieldOfView
-    64:67:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1185:1188 -> updateFieldOfView
-    68:69:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1192:1193 -> updateFieldOfView
-    70:71:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1197:1198 -> updateFieldOfView
-    72:74:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1201:1203 -> updateFieldOfView
-    75:76:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1206:1207 -> updateFieldOfView
-    77:79:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1210:1212 -> updateFieldOfView
-    80:80:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1214:1214 -> updateFieldOfView
-    81:83:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1218:1220 -> updateFieldOfView
-    84:86:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1224:1226 -> updateFieldOfView
-    87:87:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1230:1230 -> updateFieldOfView
-    88:91:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1234:1237 -> updateFieldOfView
-    1:2:void uproot(int):860:861 -> uproot
-    1:1:int width():431:431 -> width
+    20:21:void create():217:218 -> create
+    22:22:void create():221:221 -> create
+    23:23:void create():224:224 -> create
+    24:24:void create():247:247 -> create
+    25:25:void create():244:244 -> create
+    26:27:void create():240:241 -> create
+    28:30:void create():235:237 -> create
+    31:31:void create():232:232 -> create
+    32:32:void create():229:229 -> create
+    33:33:void create():226:226 -> create
+    34:34:void create():254:254 -> create
+    35:41:void create():256:262 -> create
+    42:42:void create():264:264 -> create
+    43:44:void create():266:267 -> create
+    45:46:void create():269:270 -> create
+    47:47:void create():272:272 -> create
+    1:2:com.eternalpixel.eternalpixeldungeon.actors.mobs.Mob createMob():459:460 -> createMob
+    3:5:com.eternalpixel.eternalpixeldungeon.actors.mobs.Mob createMob():463:465 -> createMob
+    1:2:void destroy(int):708:709 -> destroy
+    3:3:void destroy(int):711:711 -> destroy
+    4:4:void destroy(int):713:713 -> destroy
+    5:5:void destroy(int):715:715 -> destroy
+    1:2:void disarmTrap(int):880:881 -> disarmTrap
+    1:2:void discover(int):885:886 -> discover
+    3:4:void discover(int):888:889 -> discover
+    1:5:int distance(int,int):1247:1251 -> distance
+    1:1:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):781:781 -> drop
+    2:2:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):792:792 -> drop
+    3:7:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):795:799 -> drop
+    8:9:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):803:804 -> drop
+    10:11:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):800:801 -> drop
+    12:12:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):807:807 -> drop
+    13:13:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):816:816 -> drop
+    14:15:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):819:820 -> drop
+    16:18:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):811:813 -> drop
+    19:21:com.eternalpixel.eternalpixeldungeon.items.Heap drop(com.eternalpixel.eternalpixeldungeon.items.Item,int):785:787 -> drop
+    1:3:int fallCell(boolean):930:932 -> fallCell
+    1:2:com.eternalpixel.eternalpixeldungeon.actors.mobs.Mob findMob(int):529:530 -> findMob
+    1:1:com.eternalpixel.eternalpixeldungeon.items.Item findPrizeItem():628:628 -> findPrizeItem
+    2:2:com.eternalpixel.eternalpixeldungeon.items.Item findPrizeItem(java.lang.Class):631:631 -> findPrizeItem
+    3:4:com.eternalpixel.eternalpixeldungeon.items.Item findPrizeItem(java.lang.Class):635:636 -> findPrizeItem
+    5:7:com.eternalpixel.eternalpixeldungeon.items.Item findPrizeItem(java.lang.Class):640:642 -> findPrizeItem
+    1:3:java.util.ArrayList getItemsToPreserveFromSealedResurrect():491:493 -> getItemsToPreserveFromSealedResurrect
+    4:6:java.util.ArrayList getItemsToPreserveFromSealedResurrect():495:497 -> getItemsToPreserveFromSealedResurrect
+    7:8:java.util.ArrayList getItemsToPreserveFromSealedResurrect():500:501 -> getItemsToPreserveFromSealedResurrect
+    1:1:int height():439:439 -> height
+    1:1:boolean insideMap(int):1270:1270 -> insideMap
+    1:1:int length():443:443 -> length
+    1:3:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):937:939 -> occupyCell
+    4:4:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):942:942 -> occupyCell
+    5:7:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):944:946 -> occupyCell
+    8:11:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):948:951 -> occupyCell
+    12:13:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):953:954 -> occupyCell
+    14:15:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):956:957 -> occupyCell
+    16:20:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):960:964 -> occupyCell
+    21:21:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):970:970 -> occupyCell
+    22:23:void occupyCell(com.eternalpixel.eternalpixeldungeon.actors.Char):972:973 -> occupyCell
+    1:1:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):828:828 -> plant
+    2:2:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):832:832 -> plant
+    3:3:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):834:834 -> plant
+    4:4:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):837:837 -> plant
+    5:6:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):842:843 -> plant
+    7:8:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):846:847 -> plant
+    9:9:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):849:849 -> plant
+    10:14:com.eternalpixel.eternalpixeldungeon.plants.Plant plant(com.eternalpixel.eternalpixeldungeon.plants.Plant$Seed,int):851:855 -> plant
+    1:1:int pointToCell(com.watabou.utils.Point):1280:1280 -> pointToCell
+    1:1:void pressCell(int):980:980 -> pressCell
+    2:2:void pressCell(int,boolean):987:987 -> pressCell
+    3:3:void pressCell(int,boolean):989:989 -> pressCell
+    4:4:void pressCell(int,boolean):999:999 -> pressCell
+    5:6:void pressCell(int,boolean):993:994 -> pressCell
+    7:7:void pressCell(int,boolean):1008:1008 -> pressCell
+    8:8:void pressCell(int,boolean):1004:1004 -> pressCell
+    9:9:void pressCell(int,boolean):1012:1012 -> pressCell
+    10:11:void pressCell(int,boolean):1018:1019 -> pressCell
+    12:13:void pressCell(int,boolean):1021:1022 -> pressCell
+    14:14:void pressCell(int,boolean):1026:1026 -> pressCell
+    15:15:void pressCell(int,boolean):1028:1028 -> pressCell
+    16:16:void pressCell(int,boolean):1030:1030 -> pressCell
+    17:17:void pressCell(int,boolean):1034:1034 -> pressCell
+    18:18:void pressCell(int,boolean):1036:1036 -> pressCell
+    19:19:void pressCell(int,boolean):1038:1038 -> pressCell
+    20:21:void pressCell(int,boolean):1042:1043 -> pressCell
+    22:22:void pressCell(int,boolean):1046:1046 -> pressCell
+    23:23:void pressCell(int,boolean):1051:1051 -> pressCell
+    24:24:void pressCell(int,boolean):1053:1053 -> pressCell
+    25:26:void pressCell(int,boolean):1056:1057 -> pressCell
+    1:3:int randomDestination(com.eternalpixel.eternalpixeldungeon.actors.Char):616:618 -> randomDestination
+    1:2:int randomRespawnCell(com.eternalpixel.eternalpixeldungeon.actors.Char):605:606 -> randomRespawnCell
+    3:4:int randomRespawnCell(com.eternalpixel.eternalpixeldungeon.actors.Char):608:609 -> randomRespawnCell
+    1:1:float respawnCooldown():593:593 -> respawnCooldown
+    2:2:float respawnCooldown():595:595 -> respawnCooldown
+    1:1:void restoreFromBundle(com.watabou.utils.Bundle):316:316 -> restoreFromBundle
+    2:2:void restoreFromBundle(com.watabou.utils.Bundle):323:323 -> restoreFromBundle
+    3:9:void restoreFromBundle(com.watabou.utils.Bundle):325:331 -> restoreFromBundle
+    10:10:void restoreFromBundle(com.watabou.utils.Bundle):333:333 -> restoreFromBundle
+    11:12:void restoreFromBundle(com.watabou.utils.Bundle):335:336 -> restoreFromBundle
+    13:14:void restoreFromBundle(com.watabou.utils.Bundle):338:339 -> restoreFromBundle
+    15:15:void restoreFromBundle(com.watabou.utils.Bundle):341:341 -> restoreFromBundle
+    16:20:void restoreFromBundle(com.watabou.utils.Bundle):343:347 -> restoreFromBundle
+    21:24:void restoreFromBundle(com.watabou.utils.Bundle):350:353 -> restoreFromBundle
+    25:28:void restoreFromBundle(com.watabou.utils.Bundle):356:359 -> restoreFromBundle
+    29:32:void restoreFromBundle(com.watabou.utils.Bundle):362:365 -> restoreFromBundle
+    33:36:void restoreFromBundle(com.watabou.utils.Bundle):368:371 -> restoreFromBundle
+    37:39:void restoreFromBundle(com.watabou.utils.Bundle):374:376 -> restoreFromBundle
+    40:40:void restoreFromBundle(com.watabou.utils.Bundle):378:378 -> restoreFromBundle
+    41:44:void restoreFromBundle(com.watabou.utils.Bundle):382:385 -> restoreFromBundle
+    45:47:void restoreFromBundle(com.watabou.utils.Bundle):388:390 -> restoreFromBundle
+    48:50:void restoreFromBundle(com.watabou.utils.Bundle):392:394 -> restoreFromBundle
+    51:52:void restoreFromBundle(com.watabou.utils.Bundle):398:399 -> restoreFromBundle
+    53:54:void restoreFromBundle(com.watabou.utils.Bundle):402:403 -> restoreFromBundle
+    55:55:void restoreFromBundle(com.watabou.utils.Bundle):320:320 -> restoreFromBundle
+    1:3:void seal():475:477 -> seal
+    1:1:void set(int,int):741:741 -> set
+    2:2:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):745:745 -> set
+    3:3:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):748:748 -> set
+    4:12:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):751:759 -> set
+    13:13:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):761:761 -> set
+    14:15:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):763:764 -> set
+    16:19:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):766:769 -> set
+    20:20:void set(int,int,com.eternalpixel.eternalpixeldungeon.levels.Level):771:771 -> set
+    1:1:boolean setCellToWater(boolean,int):893:893 -> setCellToWater
+    2:6:boolean setCellToWater(boolean,int):896:900 -> setCellToWater
+    7:7:boolean setCellToWater(boolean,int):902:902 -> setCellToWater
+    8:8:boolean setCellToWater(boolean,int):908:908 -> setCellToWater
+    9:11:boolean setCellToWater(boolean,int):918:920 -> setCellToWater
+    12:13:boolean setCellToWater(boolean,int):913:914 -> setCellToWater
+    1:3:void setSize(int,int):277:279 -> setSize
+    4:5:void setSize(int,int):281:282 -> setSize
+    6:7:void setSize(int,int):284:285 -> setSize
+    8:8:void setSize(int,int):287:287 -> setSize
+    9:16:void setSize(int,int):289:296 -> setSize
+    17:17:void setSize(int,int):298:298 -> setSize
+    18:18:void setSize(int,int):300:300 -> setSize
+    1:1:com.eternalpixel.eternalpixeldungeon.levels.traps.Trap setTrap(com.eternalpixel.eternalpixeldungeon.levels.traps.Trap,int):869:869 -> setTrap
+    2:2:com.eternalpixel.eternalpixeldungeon.levels.traps.Trap setTrap(com.eternalpixel.eternalpixeldungeon.levels.traps.Trap,int):871:871 -> setTrap
+    3:5:com.eternalpixel.eternalpixeldungeon.levels.traps.Trap setTrap(com.eternalpixel.eternalpixeldungeon.levels.traps.Trap,int):873:875 -> setTrap
+    1:19:void storeInBundle(com.watabou.utils.Bundle):409:427 -> storeInBundle
+    1:1:java.lang.String tileDesc(int):1347:1347 -> tileDesc
+    2:2:java.lang.String tileDesc(int):1351:1351 -> tileDesc
+    3:3:java.lang.String tileDesc(int):1376:1376 -> tileDesc
+    4:4:java.lang.String tileDesc(int):1369:1369 -> tileDesc
+    5:5:java.lang.String tileDesc(int):1365:1365 -> tileDesc
+    6:6:java.lang.String tileDesc(int):1363:1363 -> tileDesc
+    7:7:java.lang.String tileDesc(int):1358:1358 -> tileDesc
+    8:8:java.lang.String tileDesc(int):1356:1356 -> tileDesc
+    9:9:java.lang.String tileDesc(int):1353:1353 -> tileDesc
+    10:10:java.lang.String tileDesc(int):1374:1374 -> tileDesc
+    11:11:java.lang.String tileDesc(int):1371:1371 -> tileDesc
+    12:12:java.lang.String tileDesc(int):1361:1361 -> tileDesc
+    13:13:java.lang.String tileDesc(int):1367:1367 -> tileDesc
+    14:14:java.lang.String tileDesc(int):1378:1378 -> tileDesc
+    15:15:java.lang.String tileDesc(int):1349:1349 -> tileDesc
+    1:1:java.lang.String tileName(int):1285:1285 -> tileName
+    2:2:java.lang.String tileName(int):1341:1341 -> tileName
+    3:3:java.lang.String tileName(int):1312:1312 -> tileName
+    4:4:java.lang.String tileName(int):1296:1296 -> tileName
+    5:5:java.lang.String tileName(int):1339:1339 -> tileName
+    6:6:java.lang.String tileName(int):1337:1337 -> tileName
+    7:7:java.lang.String tileName(int):1333:1333 -> tileName
+    8:8:java.lang.String tileName(int):1328:1328 -> tileName
+    9:9:java.lang.String tileName(int):1326:1326 -> tileName
+    10:10:java.lang.String tileName(int):1324:1324 -> tileName
+    11:11:java.lang.String tileName(int):1322:1322 -> tileName
+    12:12:java.lang.String tileName(int):1335:1335 -> tileName
+    13:13:java.lang.String tileName(int):1320:1320 -> tileName
+    14:14:java.lang.String tileName(int):1318:1318 -> tileName
+    15:15:java.lang.String tileName(int):1316:1316 -> tileName
+    16:16:java.lang.String tileName(int):1314:1314 -> tileName
+    17:17:java.lang.String tileName(int):1310:1310 -> tileName
+    18:18:java.lang.String tileName(int):1308:1308 -> tileName
+    19:19:java.lang.String tileName(int):1306:1306 -> tileName
+    20:20:java.lang.String tileName(int):1304:1304 -> tileName
+    21:21:java.lang.String tileName(int):1302:1302 -> tileName
+    22:22:java.lang.String tileName(int):1300:1300 -> tileName
+    23:23:java.lang.String tileName(int):1330:1330 -> tileName
+    24:24:java.lang.String tileName(int):1294:1294 -> tileName
+    25:25:java.lang.String tileName(int):1292:1292 -> tileName
+    26:26:java.lang.String tileName(int):1287:1287 -> tileName
+    1:5:float trueDistance(int,int):1260:1264 -> trueDistance
+    1:1:int tunnelTile():431:431 -> tunnelTile
+    1:4:void unseal():482:485 -> unseal
+    1:2:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1067:1068 -> updateFieldOfView
+    3:4:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1070:1071 -> updateFieldOfView
+    5:6:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1075:1076 -> updateFieldOfView
+    7:7:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1079:1079 -> updateFieldOfView
+    8:12:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1081:1085 -> updateFieldOfView
+    13:21:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1088:1096 -> updateFieldOfView
+    22:22:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1100:1100 -> updateFieldOfView
+    23:23:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1103:1103 -> updateFieldOfView
+    24:24:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1105:1105 -> updateFieldOfView
+    25:25:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1108:1108 -> updateFieldOfView
+    26:26:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1110:1110 -> updateFieldOfView
+    27:29:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1115:1117 -> updateFieldOfView
+    30:31:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1119:1120 -> updateFieldOfView
+    32:32:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1127:1127 -> updateFieldOfView
+    33:35:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1131:1133 -> updateFieldOfView
+    36:36:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1136:1136 -> updateFieldOfView
+    37:40:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1141:1144 -> updateFieldOfView
+    41:47:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1148:1154 -> updateFieldOfView
+    48:48:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1161:1161 -> updateFieldOfView
+    49:49:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1163:1163 -> updateFieldOfView
+    50:50:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1166:1166 -> updateFieldOfView
+    51:51:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1164:1164 -> updateFieldOfView
+    52:56:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1169:1173 -> updateFieldOfView
+    57:57:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1176:1176 -> updateFieldOfView
+    58:63:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1178:1183 -> updateFieldOfView
+    64:67:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1189:1192 -> updateFieldOfView
+    68:69:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1196:1197 -> updateFieldOfView
+    70:71:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1201:1202 -> updateFieldOfView
+    72:74:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1205:1207 -> updateFieldOfView
+    75:76:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1210:1211 -> updateFieldOfView
+    77:79:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1214:1216 -> updateFieldOfView
+    80:80:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1218:1218 -> updateFieldOfView
+    81:83:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1222:1224 -> updateFieldOfView
+    84:86:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1228:1230 -> updateFieldOfView
+    87:87:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1234:1234 -> updateFieldOfView
+    88:91:void updateFieldOfView(com.eternalpixel.eternalpixeldungeon.actors.Char,boolean[]):1238:1241 -> updateFieldOfView
+    1:2:void uproot(int):864:865 -> uproot
+    1:1:int width():435:435 -> width
 com.eternalpixel.eternalpixeldungeon.levels.Level$Feeling -> com.eternalpixel.eternalpixeldungeon.levels.Level$Feeling:
     1:8:void <clinit>():103:110 -> <clinit>
     9:9:void <clinit>():102:102 -> <clinit>
@@ -21693,17 +21732,17 @@ com.eternalpixel.eternalpixeldungeon.levels.Level$Feeling -> com.eternalpixel.et
     1:1:com.eternalpixel.eternalpixeldungeon.levels.Level$Feeling valueOf(java.lang.String):102:102 -> valueOf
     1:1:com.eternalpixel.eternalpixeldungeon.levels.Level$Feeling[] values():102:102 -> values
 com.eternalpixel.eternalpixeldungeon.levels.Level$Respawner -> com.eternalpixel.eternalpixeldungeon.levels.Level$Respawner:
-    1:1:void <init>():545:545 -> <init>
-    2:2:void <init>():547:547 -> <init>
-    1:1:boolean act():552:552 -> act
-    2:4:boolean act():554:556 -> act
-    5:5:boolean act():560:560 -> act
-    6:6:boolean act():562:562 -> act
-    7:13:boolean act():564:570 -> act
-    14:15:boolean act():572:573 -> act
-    16:16:boolean act():575:575 -> act
-    17:17:boolean act():578:578 -> act
-    18:18:boolean act():581:581 -> act
+    1:1:void <init>():549:549 -> <init>
+    2:2:void <init>():551:551 -> <init>
+    1:1:boolean act():556:556 -> act
+    2:4:boolean act():558:560 -> act
+    5:5:boolean act():564:564 -> act
+    6:6:boolean act():566:566 -> act
+    7:13:boolean act():568:574 -> act
+    14:15:boolean act():576:577 -> act
+    16:16:boolean act():579:579 -> act
+    17:17:boolean act():582:582 -> act
+    18:18:boolean act():585:585 -> act
 com.eternalpixel.eternalpixeldungeon.levels.Patch -> com.eternalpixel.eternalpixeldungeon.levels.Patch:
     1:2:boolean[] generate(int,int,float,int,boolean):46:47 -> generate
     3:3:boolean[] generate(int,int,float,int,boolean):49:49 -> generate
@@ -22111,12 +22150,23 @@ com.eternalpixel.eternalpixeldungeon.levels.TownLevel -> com.eternalpixel.eterna
     1:1:void <init>():48:48 -> <init>
     2:2:void <init>():51:51 -> <init>
     3:4:void <init>():53:54 -> <init>
+    1:2:void Reset():292:293 -> Reset
+    1:2:void RestoreFromBundle(com.watabou.utils.Bundle):275:276 -> RestoreFromBundle
+    3:6:void RestoreFromBundle(com.watabou.utils.Bundle):279:282 -> RestoreFromBundle
+    7:10:void RestoreFromBundle(com.watabou.utils.Bundle):284:287 -> RestoreFromBundle
+    1:2:void StoreInBundle(com.watabou.utils.Bundle):270:271 -> StoreInBundle
     1:3:com.watabou.noosa.Group addVisuals():167:169 -> addVisuals
     1:1:boolean build():81:81 -> build
     2:2:boolean build():83:83 -> build
     3:4:boolean build():85:86 -> build
     5:6:boolean build():88:89 -> build
     7:8:boolean build():91:92 -> build
+    1:2:java.util.ArrayList generateItems(int,int):231:232 -> generateItems
+    3:6:java.util.ArrayList generateItems(int,int):251:254 -> generateItems
+    7:7:java.util.ArrayList generateItems(int,int):256:256 -> generateItems
+    8:11:java.util.ArrayList generateItems(int,int):236:239 -> generateItems
+    12:13:java.util.ArrayList generateItems(int,int):241:242 -> generateItems
+    14:14:java.util.ArrayList generateItems(int,int):244:244 -> generateItems
     1:2:void placeItem():114:115 -> placeItem
     3:5:void placeItem():118:120 -> placeItem
     1:3:void placeNPC():99:101 -> placeNPC
@@ -25541,8 +25591,8 @@ com.eternalpixel.eternalpixeldungeon.scenes.InterlevelScene -> com.eternalpixel.
     1:1:void access$700(com.eternalpixel.eternalpixeldungeon.scenes.InterlevelScene):63:63 -> access$700
     1:1:void access$800(com.eternalpixel.eternalpixeldungeon.scenes.InterlevelScene):63:63 -> access$800
     1:1:void access$900(com.eternalpixel.eternalpixeldungeon.scenes.InterlevelScene):63:63 -> access$900
-    1:1:void ascend():413:413 -> ascend
-    2:5:void ascend():415:418 -> ascend
+    1:1:void ascend():415:415 -> ascend
+    2:5:void ascend():417:420 -> ascend
     1:1:void create():106:106 -> create
     2:3:void create():111:112 -> create
     4:4:void create():114:114 -> create
@@ -25575,34 +25625,35 @@ com.eternalpixel.eternalpixeldungeon.scenes.InterlevelScene -> com.eternalpixel.
     1:6:void descend():371:376 -> descend
     7:7:void descend():378:378 -> descend
     8:9:void descend():380:381 -> descend
-    10:11:void descend():385:386 -> descend
-    12:13:void descend():388:389 -> descend
-    14:14:void descend():391:391 -> descend
-    1:1:void fall():396:396 -> fall
-    2:3:void fall():398:399 -> fall
-    4:5:void fall():402:403 -> fall
-    6:7:void fall():405:406 -> fall
-    8:8:void fall():408:408 -> fall
-    1:1:void reset():494:494 -> reset
-    2:2:void reset():496:496 -> reset
-    3:5:void reset():498:500 -> reset
-    1:1:void restore():433:433 -> restore
-    2:2:void restore():435:435 -> restore
-    3:6:void restore():437:440 -> restore
-    7:8:void restore():442:443 -> restore
-    1:1:void resurrect():449:449 -> resurrect
-    2:3:void resurrect():452:453 -> resurrect
-    4:7:void resurrect():455:458 -> resurrect
-    8:9:void resurrect():460:461 -> resurrect
-    10:10:void resurrect():463:463 -> resurrect
-    11:14:void resurrect():467:470 -> resurrect
-    15:15:void resurrect():473:473 -> resurrect
-    16:18:void resurrect():477:479 -> resurrect
-    19:20:void resurrect():482:483 -> resurrect
-    21:22:void resurrect():485:486 -> resurrect
-    23:23:void resurrect():489:489 -> resurrect
-    1:1:void returnTo():423:423 -> returnTo
-    2:5:void returnTo():425:428 -> returnTo
+    10:12:void descend():385:387 -> descend
+    13:14:void descend():389:390 -> descend
+    15:15:void descend():392:392 -> descend
+    1:1:void fall():397:397 -> fall
+    2:3:void fall():399:400 -> fall
+    4:6:void fall():403:405 -> fall
+    7:8:void fall():407:408 -> fall
+    9:9:void fall():410:410 -> fall
+    1:1:void reset():496:496 -> reset
+    2:2:void reset():498:498 -> reset
+    3:4:void reset():501:502 -> reset
+    1:1:void restore():435:435 -> restore
+    2:2:void restore():437:437 -> restore
+    3:6:void restore():439:442 -> restore
+    7:8:void restore():444:445 -> restore
+    1:1:void resurrect():451:451 -> resurrect
+    2:3:void resurrect():454:455 -> resurrect
+    4:4:void resurrect():457:457 -> resurrect
+    5:6:void resurrect():459:460 -> resurrect
+    7:8:void resurrect():462:463 -> resurrect
+    9:9:void resurrect():465:465 -> resurrect
+    10:13:void resurrect():469:472 -> resurrect
+    14:14:void resurrect():475:475 -> resurrect
+    15:17:void resurrect():479:481 -> resurrect
+    18:19:void resurrect():484:485 -> resurrect
+    20:21:void resurrect():487:488 -> resurrect
+    22:22:void resurrect():491:491 -> resurrect
+    1:1:void returnTo():425:425 -> returnTo
+    2:5:void returnTo():427:430 -> returnTo
     1:1:void update():303:303 -> update
     2:2:void update():305:305 -> update
     3:3:void update():307:307 -> update
@@ -27173,22 +27224,22 @@ com.eternalpixel.eternalpixeldungeon.sprites.ItemSpriteSheet -> com.eternalpixel
     716:720:void <clinit>():908:912 -> <clinit>
     721:723:void <clinit>():916:918 -> <clinit>
     724:725:void <clinit>():920:921 -> <clinit>
-    726:731:void <clinit>():924:929 -> <clinit>
-    732:733:void <clinit>():932:933 -> <clinit>
+    726:732:void <clinit>():924:930 -> <clinit>
+    733:738:void <clinit>():933:938 -> <clinit>
     1:3:void assignItemRect(int,int,int):40:42 -> assignItemRect
 com.eternalpixel.eternalpixeldungeon.sprites.ItemSpriteSheet$Icons -> com.eternalpixel.eternalpixeldungeon.sprites.ItemSpriteSheet$Icons:
-    1:1:void <clinit>():946:946 -> <clinit>
-    2:14:void <clinit>():959:971 -> <clinit>
-    15:25:void <clinit>():973:983 -> <clinit>
-    26:38:void <clinit>():988:1000 -> <clinit>
-    39:50:void <clinit>():1002:1013 -> <clinit>
-    51:63:void <clinit>():1016:1028 -> <clinit>
-    64:75:void <clinit>():1030:1041 -> <clinit>
-    76:88:void <clinit>():1046:1058 -> <clinit>
-    89:100:void <clinit>():1060:1071 -> <clinit>
-    101:113:void <clinit>():1074:1086 -> <clinit>
-    114:125:void <clinit>():1088:1099 -> <clinit>
-    1:3:void assignIconRect(int,int,int):954:956 -> assignIconRect
+    1:1:void <clinit>():952:952 -> <clinit>
+    2:14:void <clinit>():965:977 -> <clinit>
+    15:25:void <clinit>():979:989 -> <clinit>
+    26:38:void <clinit>():994:1006 -> <clinit>
+    39:50:void <clinit>():1008:1019 -> <clinit>
+    51:63:void <clinit>():1022:1034 -> <clinit>
+    64:75:void <clinit>():1036:1047 -> <clinit>
+    76:88:void <clinit>():1052:1064 -> <clinit>
+    89:100:void <clinit>():1066:1077 -> <clinit>
+    101:113:void <clinit>():1080:1092 -> <clinit>
+    114:125:void <clinit>():1094:1105 -> <clinit>
+    1:3:void assignIconRect(int,int,int):960:962 -> assignIconRect
 com.eternalpixel.eternalpixeldungeon.sprites.KingSprite -> com.eternalpixel.eternalpixeldungeon.sprites.KingSprite:
     1:1:void <init>():30:30 -> <init>
     2:2:void <init>():32:32 -> <init>
@@ -31875,8 +31926,12 @@ com.eternalpixel.eternalpixeldungeon.windows.WndTownBoard -> com.eternalpixel.et
     11:20:void <init>():64:73 -> <init>
     21:30:void <init>():76:85 -> <init>
     31:35:void <init>():88:92 -> <init>
-    1:1:void reset(int):154:154 -> reset
-    2:2:void reset(int):156:156 -> reset
+    1:2:void reset():148:149 -> reset
+    3:3:void reset(int):154:154 -> reset
+    4:4:void reset(int):156:156 -> reset
+    1:4:void restoreFromBundle(com.watabou.utils.Bundle):172:175 -> restoreFromBundle
+    5:5:void restoreFromBundle(com.watabou.utils.Bundle):178:178 -> restoreFromBundle
+    1:3:void storeInBundle(com.watabou.utils.Bundle):165:167 -> storeInBundle
 com.eternalpixel.eternalpixeldungeon.windows.WndTownBoard$JobButton -> com.eternalpixel.eternalpixeldungeon.windows.WndTownBoard$JobButton:
     1:3:void <init>(com.eternalpixel.eternalpixeldungeon.windows.WndTownBoard,com.eternalpixel.eternalpixeldungeon.items.Item,int):103:105 -> <init>
     4:4:void <init>(com.eternalpixel.eternalpixeldungeon.windows.WndTownBoard,com.eternalpixel.eternalpixeldungeon.items.Item,int):108:108 -> <init>
@@ -33793,64 +33848,64 @@ com.watabou.utils.Graph -> com.watabou.utils.Graph:
     7:9:void buildDistanceMap(java.util.Collection,com.watabou.utils.Graph$Node):50:52 -> buildDistanceMap
     10:13:void buildDistanceMap(java.util.Collection,com.watabou.utils.Graph$Node):54:57 -> buildDistanceMap
 com.watabou.utils.PathFinder -> com.watabou.utils.PathFinder:
-    1:1:boolean buildDistanceMap(int,int,boolean[]):166:166 -> buildDistanceMap
-    2:3:boolean buildDistanceMap(int,int,boolean[]):174:175 -> buildDistanceMap
-    4:4:boolean buildDistanceMap(int,int,boolean[]):180:180 -> buildDistanceMap
-    5:5:boolean buildDistanceMap(int,int,boolean[]):185:185 -> buildDistanceMap
-    6:8:boolean buildDistanceMap(int,int,boolean[]):187:189 -> buildDistanceMap
-    9:10:boolean buildDistanceMap(int,int,boolean[]):191:192 -> buildDistanceMap
-    11:12:boolean buildDistanceMap(int,int,boolean[]):194:195 -> buildDistanceMap
-    13:13:void buildDistanceMap(int,boolean[],int):206:206 -> buildDistanceMap
-    14:15:void buildDistanceMap(int,boolean[],int):212:213 -> buildDistanceMap
-    16:16:void buildDistanceMap(int,boolean[],int):218:218 -> buildDistanceMap
-    17:17:void buildDistanceMap(int,boolean[],int):220:220 -> buildDistanceMap
-    18:20:void buildDistanceMap(int,boolean[],int):225:227 -> buildDistanceMap
-    21:22:void buildDistanceMap(int,boolean[],int):229:230 -> buildDistanceMap
-    23:24:void buildDistanceMap(int,boolean[],int):232:233 -> buildDistanceMap
-    25:25:boolean buildDistanceMap(int,boolean[],boolean[]):242:242 -> buildDistanceMap
-    26:26:boolean buildDistanceMap(int,boolean[],boolean[]):246:246 -> buildDistanceMap
-    27:30:boolean buildDistanceMap(int,boolean[],boolean[]):254:257 -> buildDistanceMap
-    31:31:boolean buildDistanceMap(int,boolean[],boolean[]):264:264 -> buildDistanceMap
-    32:32:boolean buildDistanceMap(int,boolean[],boolean[]):269:269 -> buildDistanceMap
-    33:35:boolean buildDistanceMap(int,boolean[],boolean[]):271:273 -> buildDistanceMap
-    36:37:boolean buildDistanceMap(int,boolean[],boolean[]):275:276 -> buildDistanceMap
-    38:39:boolean buildDistanceMap(int,boolean[],boolean[]):278:279 -> buildDistanceMap
-    40:40:void buildDistanceMap(int,boolean[]):338:338 -> buildDistanceMap
-    41:42:void buildDistanceMap(int,boolean[]):344:345 -> buildDistanceMap
-    43:44:void buildDistanceMap(int,boolean[]):350:351 -> buildDistanceMap
-    45:47:void buildDistanceMap(int,boolean[]):353:355 -> buildDistanceMap
-    48:49:void buildDistanceMap(int,boolean[]):357:358 -> buildDistanceMap
-    50:51:void buildDistanceMap(int,boolean[]):360:361 -> buildDistanceMap
-    1:1:int buildEscapeDistanceMap(int,int,int,boolean[]):290:290 -> buildEscapeDistanceMap
-    2:3:int buildEscapeDistanceMap(int,int,int,boolean[]):298:299 -> buildEscapeDistanceMap
-    4:5:int buildEscapeDistanceMap(int,int,int,boolean[]):306:307 -> buildEscapeDistanceMap
-    6:8:int buildEscapeDistanceMap(int,int,int,boolean[]):319:321 -> buildEscapeDistanceMap
-    9:10:int buildEscapeDistanceMap(int,int,int,boolean[]):323:324 -> buildEscapeDistanceMap
-    11:12:int buildEscapeDistanceMap(int,int,int,boolean[]):326:327 -> buildEscapeDistanceMap
-    1:1:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):77:77 -> find
-    2:2:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):81:81 -> find
-    3:3:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):87:87 -> find
-    4:4:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):90:90 -> find
-    5:5:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):92:92 -> find
-    6:6:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):94:94 -> find
-    7:7:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):101:101 -> find
-    1:1:int getStep(int,int,boolean[]):109:109 -> getStep
-    2:2:int getStep(int,int,boolean[]):114:114 -> getStep
-    3:3:int getStep(int,int,boolean[]):119:119 -> getStep
-    4:4:int getStep(int,int,boolean[]):121:121 -> getStep
-    1:3:int getStepBack(int,int,boolean[]):132:134 -> getStepBack
-    4:4:int getStepBack(int,int,boolean[]):136:136 -> getStepBack
-    5:5:int getStepBack(int,int,boolean[]):143:143 -> getStepBack
-    6:6:int getStepBack(int,int,boolean[]):146:146 -> getStepBack
-    7:8:int getStepBack(int,int,boolean[]):148:149 -> getStepBack
-    1:2:void setMapSize(int,int):54:55 -> setMapSize
-    3:5:void setMapSize(int,int):57:59 -> setMapSize
-    6:7:void setMapSize(int,int):61:62 -> setMapSize
-    8:9:void setMapSize(int,int):64:65 -> setMapSize
-    10:12:void setMapSize(int,int):67:69 -> setMapSize
-    13:14:void setMapSize(int,int):71:72 -> setMapSize
+    1:1:boolean buildDistanceMap(int,int,boolean[]):173:173 -> buildDistanceMap
+    2:3:boolean buildDistanceMap(int,int,boolean[]):181:182 -> buildDistanceMap
+    4:4:boolean buildDistanceMap(int,int,boolean[]):187:187 -> buildDistanceMap
+    5:5:boolean buildDistanceMap(int,int,boolean[]):192:192 -> buildDistanceMap
+    6:8:boolean buildDistanceMap(int,int,boolean[]):194:196 -> buildDistanceMap
+    9:10:boolean buildDistanceMap(int,int,boolean[]):198:199 -> buildDistanceMap
+    11:12:boolean buildDistanceMap(int,int,boolean[]):201:202 -> buildDistanceMap
+    13:13:void buildDistanceMap(int,boolean[],int):213:213 -> buildDistanceMap
+    14:15:void buildDistanceMap(int,boolean[],int):219:220 -> buildDistanceMap
+    16:16:void buildDistanceMap(int,boolean[],int):225:225 -> buildDistanceMap
+    17:17:void buildDistanceMap(int,boolean[],int):227:227 -> buildDistanceMap
+    18:20:void buildDistanceMap(int,boolean[],int):232:234 -> buildDistanceMap
+    21:22:void buildDistanceMap(int,boolean[],int):236:237 -> buildDistanceMap
+    23:24:void buildDistanceMap(int,boolean[],int):239:240 -> buildDistanceMap
+    25:25:boolean buildDistanceMap(int,boolean[],boolean[]):249:249 -> buildDistanceMap
+    26:26:boolean buildDistanceMap(int,boolean[],boolean[]):253:253 -> buildDistanceMap
+    27:30:boolean buildDistanceMap(int,boolean[],boolean[]):261:264 -> buildDistanceMap
+    31:31:boolean buildDistanceMap(int,boolean[],boolean[]):271:271 -> buildDistanceMap
+    32:32:boolean buildDistanceMap(int,boolean[],boolean[]):276:276 -> buildDistanceMap
+    33:35:boolean buildDistanceMap(int,boolean[],boolean[]):278:280 -> buildDistanceMap
+    36:37:boolean buildDistanceMap(int,boolean[],boolean[]):282:283 -> buildDistanceMap
+    38:39:boolean buildDistanceMap(int,boolean[],boolean[]):285:286 -> buildDistanceMap
+    40:40:void buildDistanceMap(int,boolean[]):345:345 -> buildDistanceMap
+    41:42:void buildDistanceMap(int,boolean[]):351:352 -> buildDistanceMap
+    43:44:void buildDistanceMap(int,boolean[]):357:358 -> buildDistanceMap
+    45:47:void buildDistanceMap(int,boolean[]):360:362 -> buildDistanceMap
+    48:49:void buildDistanceMap(int,boolean[]):364:365 -> buildDistanceMap
+    50:51:void buildDistanceMap(int,boolean[]):367:368 -> buildDistanceMap
+    1:1:int buildEscapeDistanceMap(int,int,int,boolean[]):297:297 -> buildEscapeDistanceMap
+    2:3:int buildEscapeDistanceMap(int,int,int,boolean[]):305:306 -> buildEscapeDistanceMap
+    4:5:int buildEscapeDistanceMap(int,int,int,boolean[]):313:314 -> buildEscapeDistanceMap
+    6:8:int buildEscapeDistanceMap(int,int,int,boolean[]):326:328 -> buildEscapeDistanceMap
+    9:10:int buildEscapeDistanceMap(int,int,int,boolean[]):330:331 -> buildEscapeDistanceMap
+    11:12:int buildEscapeDistanceMap(int,int,int,boolean[]):333:334 -> buildEscapeDistanceMap
+    1:1:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):84:84 -> find
+    2:2:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):88:88 -> find
+    3:3:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):94:94 -> find
+    4:4:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):97:97 -> find
+    5:5:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):99:99 -> find
+    6:6:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):101:101 -> find
+    7:7:com.watabou.utils.PathFinder$Path find(int,int,boolean[]):108:108 -> find
+    1:1:int getStep(int,int,boolean[]):116:116 -> getStep
+    2:2:int getStep(int,int,boolean[]):121:121 -> getStep
+    3:3:int getStep(int,int,boolean[]):126:126 -> getStep
+    4:4:int getStep(int,int,boolean[]):128:128 -> getStep
+    1:3:int getStepBack(int,int,boolean[]):139:141 -> getStepBack
+    4:4:int getStepBack(int,int,boolean[]):143:143 -> getStepBack
+    5:5:int getStepBack(int,int,boolean[]):150:150 -> getStepBack
+    6:6:int getStepBack(int,int,boolean[]):153:153 -> getStepBack
+    7:8:int getStepBack(int,int,boolean[]):155:156 -> getStepBack
+    1:2:void setMapSize(int,int):55:56 -> setMapSize
+    3:5:void setMapSize(int,int):58:60 -> setMapSize
+    6:7:void setMapSize(int,int):62:63 -> setMapSize
+    8:9:void setMapSize(int,int):65:66 -> setMapSize
+    10:13:void setMapSize(int,int):68:71 -> setMapSize
+    14:15:void setMapSize(int,int):78:79 -> setMapSize
 com.watabou.utils.PathFinder$Path -> com.watabou.utils.PathFinder$Path:
-    1:1:void <init>():369:369 -> <init>
+    1:1:void <init>():376:376 -> <init>
 com.watabou.utils.PlatformSupport -> com.watabou.utils.PlatformSupport:
     1:1:void <init>():33:33 -> <init>
     1:1:com.badlogic.gdx.graphics.g2d.BitmapFont getFont(int,java.lang.String,boolean,boolean):109:109 -> getFont

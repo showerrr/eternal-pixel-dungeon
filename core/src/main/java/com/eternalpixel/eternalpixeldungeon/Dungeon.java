@@ -69,6 +69,7 @@ import com.eternalpixel.eternalpixeldungeon.ui.QuickSlotButton;
 import com.eternalpixel.eternalpixeldungeon.utils.BArray;
 import com.eternalpixel.eternalpixeldungeon.utils.DungeonSeed;
 import com.eternalpixel.eternalpixeldungeon.windows.WndResurrect;
+import com.eternalpixel.eternalpixeldungeon.windows.WndTownBoard;
 import com.watabou.noosa.Game;
 import com.watabou.utils.Bundlable;
 import com.watabou.utils.Bundle;
@@ -239,7 +240,7 @@ public class Dungeon {
 		Dungeon.level = null;
 		Actor.clear();
 		
-		depth++;
+//		depth++;
 		if (depth > Statistics.deepestFloor) {
 			Statistics.deepestFloor = depth;
 			
@@ -360,8 +361,14 @@ public class Dungeon {
 		}
 		
 		PathFinder.setMapSize(level.width(), level.height());
-		
-		Dungeon.level = level;
+
+		if (Dungeon.depth == 0 && (Statistics.duration - Statistics.townDuration) > 100) {
+			Dungeon.level = newLevel();
+			Statistics.townDuration = Statistics.duration;
+		} else {
+			Dungeon.level = level;
+		}
+
 		Mob.restoreAllies( level, pos );
 		Actor.init();
 
@@ -454,6 +461,7 @@ public class Dungeon {
 	private static final String DEPTH		= "depth";
 	private static final String GOLD		= "gold";
 	private static final String ENERGY		= "energy";
+	private static final String JOB  		= "job";
 	private static final String DROPPED     = "dropped%d";
 	private static final String PORTED      = "ported%d";
 	private static final String LEVEL		= "level";
@@ -505,8 +513,9 @@ public class Dungeon {
 			Imp			.Quest.storeInBundle( quests );
 			bundle.put( QUESTS, quests );
 
-			TownLevel.StoreInBundle(bundle);
-			
+			WndTownBoard.storeInBundle( bundle );
+			TownLevel.StoreInBundle( bundle );
+
 			SpecialRoom.storeRoomsInBundle( bundle );
 			SecretRoom.storeRoomsInBundle( bundle );
 			
@@ -573,7 +582,7 @@ public class Dungeon {
 		Dungeon.mobsToChampion = bundle.getInt( MOBS_TO_CHAMPION );
 		
 		Dungeon.level = null;
-		Dungeon.depth = -1;
+		Dungeon.depth = 0;
 		
 		Scroll.restore( bundle );
 		Potion.restore( bundle );
@@ -610,6 +619,7 @@ public class Dungeon {
 			SecretRoom.restoreRoomsFromBundle(bundle);
 		}
 
+		WndTownBoard.restoreFromBundle(bundle);
 		TownLevel.RestoreFromBundle(bundle);
 		
 		Bundle badges = bundle.getBundle(BADGES);
@@ -816,6 +826,28 @@ public class Dungeon {
 				}
 				GameScene.updateFog(ch.pos, dist);
 			}
+		}
+
+//		if (depth == -1) {
+//
+//			int length = Dungeon.level.length();
+//			boolean[] mapped = Dungeon.level.heroFOV;
+//
+//			for (int i=0; i < length; i++) {
+//				mapped[i] = true;
+//			}
+//		}
+
+		if (depth == 0) {
+
+			int length = Dungeon.level.length();
+			boolean[] mapped = Dungeon.level.visited;
+
+			for (int i=0; i < length; i++) {
+				mapped[i] = true;
+			}
+
+			mapped[1] = false;
 		}
 
 		GameScene.afterObserve();

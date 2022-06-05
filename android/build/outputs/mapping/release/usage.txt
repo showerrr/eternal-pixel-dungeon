@@ -4310,6 +4310,7 @@ com.eternalpixel.eternalpixeldungeon.Dungeon:
     private static final java.lang.String ENERGY
     private static final java.lang.String GOLD
     private static final java.lang.String HERO
+    private static final java.lang.String JOB
     private static final java.lang.String LEVEL
     private static final java.lang.String LIMDROPS
     private static final java.lang.String MOBS_TO_CHAMPION
@@ -4994,7 +4995,6 @@ com.eternalpixel.eternalpixeldungeon.effects.MagicMissile:
     public static final int TOXIC_VENT
     public static final int WARD
     public static final int WARD_CONE
-    public void reset(int,int,int,com.watabou.utils.Callback)
     public void reset(int,com.watabou.noosa.Visual,com.watabou.noosa.Visual,com.watabou.utils.Callback)
 com.eternalpixel.eternalpixeldungeon.effects.Pushing$Effect:
     private static final float DELAY
@@ -5231,6 +5231,8 @@ com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot:
     private static final java.lang.String CARD
     private static final java.lang.String CHARGE_CAP
     private static final java.lang.String IMAGE
+    private static int nextFrom
+    private static int nextTo
 com.eternalpixel.eternalpixeldungeon.items.artifacts.SandalsOfNature:
     public static final java.lang.String AC_FEED
     public static final java.lang.String AC_ROOT
@@ -5599,10 +5601,6 @@ com.eternalpixel.eternalpixeldungeon.levels.TownLevel:
     public java.util.ArrayList shop7
     private static final int w
     private static final int x
-    public static void Reset()
-    public static void RestoreFromBundle(com.watabou.utils.Bundle)
-    public static void StoreInBundle(com.watabou.utils.Bundle)
-    protected static java.util.ArrayList generateItems(int,int)
     public com.eternalpixel.eternalpixeldungeon.actors.Actor respawner()
 com.eternalpixel.eternalpixeldungeon.levels.builders.BranchesBuilder
 com.eternalpixel.eternalpixeldungeon.levels.builders.Builder:
@@ -5736,6 +5734,7 @@ com.eternalpixel.eternalpixeldungeon.scenes.InterlevelScene:
     private static final float FAST_FADE
     private static final float NORM_FADE
     private static final float SLOW_FADE
+    private void story()
 com.eternalpixel.eternalpixeldungeon.scenes.NewsScene$1
 com.eternalpixel.eternalpixeldungeon.scenes.NewsScene$ArticleButton
 com.eternalpixel.eternalpixeldungeon.scenes.NewsScene$NewsInfo$1
@@ -6291,9 +6290,6 @@ com.eternalpixel.eternalpixeldungeon.windows.WndTownBoard:
     private static final int WIDTH
     private static final int type
     private static final int type2
-    public static void reset()
-    public static void restoreFromBundle(com.watabou.utils.Bundle)
-    public static void storeInBundle(com.watabou.utils.Bundle)
 com.eternalpixel.eternalpixeldungeon.windows.WndTownIdentify$1
 com.eternalpixel.eternalpixeldungeon.windows.WndTownIdentify$2$1
 com.eternalpixel.eternalpixeldungeon.windows.WndTownIdentify$2

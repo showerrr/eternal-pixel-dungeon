@@ -1,10 +1,10 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    xmlns:dist="http://schemas.android.com/apk/distribution"
-4    package="com.eternalpixel.eternalpixeldungeon"
+4    package="com.eternaldpixel.eternalpixeldungeon"
 5    android:installLocation="auto"
 6    android:targetSandboxVersion="2"
-7    android:versionCode="1"
+7    android:versionCode="588"
 8    android:versionName="0.0.1" >
 9
 10    <uses-sdk

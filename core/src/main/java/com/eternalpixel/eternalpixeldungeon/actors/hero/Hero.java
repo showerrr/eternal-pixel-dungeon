@@ -1508,7 +1508,7 @@ public class Hero extends Char {
 				//moving to an item doesn't auto-pickup when enemies are near...
 				&& (visibleEnemies.size() == 0 || cell == pos ||
 				//...but only for standard heaps, chests and similar open as normal.
-				(heap.type != Type.HEAP && heap.type != Type.FOR_SALE))) {
+				(heap.type != Type.HEAP && heap.type != Type.FOR_SALE && heap.type != Type.INTERACTIVE))) {
 
 			switch (heap.type) {
 			case HEAP:
@@ -1520,7 +1520,9 @@ public class Hero extends Char {
 					new HeroAction.PickUp( cell );
 				break;
 			case INTERACTIVE:
-				curAction = new HeroAction.InteractItem(heap);
+				curAction = heap.size() == 1 ?
+						new HeroAction.InteractItem(heap) :
+						new HeroAction.PickUp(cell);
 				break;
 			default:
 				curAction = new HeroAction.OpenChest( cell );

@@ -4,14 +4,14 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.eternalpixel.eternalpixeldungeon",
+  "applicationId": "com.eternaldpixel.eternalpixeldungeon",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
+      "versionCode": 588,
       "versionName": "0.0.1",
       "outputFile": "AndroidManifest.xml"
     }

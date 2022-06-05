@@ -383,6 +383,7 @@ public class InterlevelScene extends PixelScene {
 
 		Level level;
 		if (Dungeon.depth >= Statistics.deepestFloor) {
+			Dungeon.depth++;
 			level = Dungeon.newLevel();
 		} else {
 			Dungeon.depth++;
@@ -400,6 +401,7 @@ public class InterlevelScene extends PixelScene {
 
 		Level level;
 		if (Dungeon.depth >= Statistics.deepestFloor) {
+			Dungeon.depth++;
 			level = Dungeon.newLevel();
 		} else {
 			Dungeon.depth++;
@@ -453,7 +455,7 @@ public class InterlevelScene extends PixelScene {
 			ArrayList<Item> preservedItems = Dungeon.level.getItemsToPreserveFromSealedResurrect();
 
 			Dungeon.hero.resurrect();
-			Dungeon.depth--;
+//			Dungeon.depth--;
 			level = Dungeon.newLevel();
 			Dungeon.hero.pos = level.randomRespawnCell(Dungeon.hero);
 
@@ -495,7 +497,16 @@ public class InterlevelScene extends PixelScene {
 
 		SpecialRoom.resetPitRoom(Dungeon.depth+1);
 
-		Dungeon.depth--;
+//		Dungeon.depth--;
+		Level level = Dungeon.newLevel();
+		Dungeon.switchLevel( level, level.entrance );
+	}
+
+	private void story() throws IOException {
+
+		Mob.holdAllies( Dungeon.level );
+
+		Dungeon.depth = -1;
 		Level level = Dungeon.newLevel();
 		Dungeon.switchLevel( level, level.entrance );
 	}

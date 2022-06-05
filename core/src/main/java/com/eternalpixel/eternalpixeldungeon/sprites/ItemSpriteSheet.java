@@ -927,14 +927,26 @@ public class ItemSpriteSheet {
 	public static final int TAROT1 = TAROTS+2;
 	public static final int TAROT2 = TAROTS+3;
 	public static final int TAROT3 = TAROTS+4;
-//	public static final int TAROT_ = TAROTS+;
+	public static final int TAROT4 = TAROTS+5;
+	public static final int TAROT5 = TAROTS+6;
+	public static final int TAROT6 = TAROTS+7;
+	public static final int TAROT7 = TAROTS+8;
+	public static final int TAROT8 = TAROTS+9;
+	public static final int TAROT9 = TAROTS+10;
+//	public static final int TAROT = TAROTS+;
 	static {
 		assignItemRect(TAROT,11,16);
 		assignItemRect(TAROT0,11,16);
 		assignItemRect(TAROT1,11,16);
 		assignItemRect(TAROT2,11,16);
 		assignItemRect(TAROT3,11,16);
-//	assignItemRect(TAROT1,11,16);
+		assignItemRect(TAROT4,11,16);
+		assignItemRect(TAROT5,11,16);
+		assignItemRect(TAROT6,11,16);
+		assignItemRect(TAROT7,11,16);
+		assignItemRect(TAROT8,11,16);
+		assignItemRect(TAROT9,11,16);
+//		assignItemRect(TAROT1,11,16);
 	}                                                               //16 free slots
 
 

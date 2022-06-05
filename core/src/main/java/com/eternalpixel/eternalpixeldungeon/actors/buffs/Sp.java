@@ -37,6 +37,6 @@ public class Sp extends Buff {
     }
 
     public void decreaseStamina(Integer sp) {
-        level += sp;
+        level -= sp;
     }
 }

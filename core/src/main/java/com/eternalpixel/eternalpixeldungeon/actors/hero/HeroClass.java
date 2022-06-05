@@ -50,6 +50,7 @@ import com.eternalpixel.eternalpixeldungeon.items.bags.MagicalHolster;
 import com.eternalpixel.eternalpixeldungeon.items.bags.PotionBandolier;
 import com.eternalpixel.eternalpixeldungeon.items.bags.ScrollHolder;
 import com.eternalpixel.eternalpixeldungeon.items.bags.VelvetPouch;
+import com.eternalpixel.eternalpixeldungeon.items.cookingtools.FoodProcessor;
 import com.eternalpixel.eternalpixeldungeon.items.food.Food;
 import com.eternalpixel.eternalpixeldungeon.items.potions.PotionOfHealing;
 import com.eternalpixel.eternalpixeldungeon.items.potions.PotionOfInvisibility;
@@ -112,6 +113,9 @@ public enum HeroClass {
 
 		Waterskin waterskin = new Waterskin();
 		waterskin.collect();
+
+		FoodProcessor foodProcessor = new FoodProcessor();
+		foodProcessor.identify().collect();
 
 		new ScrollOfIdentify().identify();
 

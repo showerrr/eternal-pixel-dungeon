@@ -42,7 +42,7 @@
     <content url="file://$MODULE_DIR$/../../../core/src/main/assets">
       <sourceFolder url="file://$MODULE_DIR$/../../../core/src/main/assets" type="java-resource" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: com.badlogicgames.gdx:gdx-backend-android:1.10.0" level="project" />
     <orderEntry type="module-library">

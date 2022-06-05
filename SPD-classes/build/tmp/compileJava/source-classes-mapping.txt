@@ -143,9 +143,8 @@ com/watabou/noosa/particles/BitmaskEmitter.java
  com.watabou.noosa.particles.BitmaskEmitter
 com/watabou/glwrap/Vertexbuffer.java
  com.watabou.glwrap.Vertexbuffer
-com/watabou/utils/PathFinder.java
- com.watabou.utils.PathFinder
- com.watabou.utils.PathFinder$Path
+com/watabou/noosa/tweeners/CameraScrollTweener.java
+ com.watabou.noosa.tweeners.CameraScrollTweener
 com/watabou/noosa/Halo.java
  com.watabou.noosa.Halo
 com/watabou/noosa/particles/PixelParticle.java
@@ -185,5 +184,6 @@ com/watabou/noosa/Camera.java
  com.watabou.noosa.Camera
 com/watabou/utils/Bundle.java
  com.watabou.utils.Bundle
-com/watabou/noosa/tweeners/CameraScrollTweener.java
- com.watabou.noosa.tweeners.CameraScrollTweener
+com/watabou/utils/PathFinder.java
+ com.watabou.utils.PathFinder
+ com.watabou.utils.PathFinder$Path

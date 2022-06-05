@@ -255,9 +255,12 @@ com/eternalpixel/eternalpixeldungeon/items/food/FrozenCarpaccio.java
 com/eternalpixel/eternalpixeldungeon/items/artifacts/RiggedTarot.java
  com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot
  com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$1
- com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$1$1
+ com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$2
+ com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$2$1
+ com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$3
  com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$rogueCard
  com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$tarotRecharge
+ com.eternalpixel.eternalpixeldungeon.items.artifacts.RiggedTarot$timeCard
 com/eternalpixel/eternalpixeldungeon/actors/hero/abilities/huntress/SpectralBlades.java
  com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.huntress.SpectralBlades
  com.eternalpixel.eternalpixeldungeon.actors.hero.abilities.huntress.SpectralBlades$1
@@ -1792,6 +1795,7 @@ com/eternalpixel/eternalpixeldungeon/sprites/RotLasherSprite.java
  com.eternalpixel.eternalpixeldungeon.sprites.RotLasherSprite
 com/eternalpixel/eternalpixeldungeon/items/scrolls/ScrollOfDebugging.java
  com.eternalpixel.eternalpixeldungeon.items.scrolls.ScrollOfDebugging
+ com.eternalpixel.eternalpixeldungeon.items.scrolls.ScrollOfDebugging$1
 com/eternalpixel/eternalpixeldungeon/scenes/WelcomeScene.java
  com.eternalpixel.eternalpixeldungeon.scenes.WelcomeScene
  com.eternalpixel.eternalpixeldungeon.scenes.WelcomeScene$1

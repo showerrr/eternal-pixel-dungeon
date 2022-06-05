@@ -7,15 +7,15 @@ import com.eternalpixel.eternalpixeldungeon.actors.Char;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Barrier;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Blindness;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Burning;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Cripple;
-import com.eternalpixel.eternalpixeldungeon.actors.buffs.FlavourBuff;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Invisibility;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Poison;
-import com.eternalpixel.eternalpixeldungeon.actors.buffs.ShieldBuff;
 import com.eternalpixel.eternalpixeldungeon.actors.hero.Hero;
-import com.eternalpixel.eternalpixeldungeon.actors.hero.Talent;
 import com.eternalpixel.eternalpixeldungeon.actors.mobs.Mob;
+import com.eternalpixel.eternalpixeldungeon.effects.MagicMissile;
 import com.eternalpixel.eternalpixeldungeon.effects.newBeam;
+import com.eternalpixel.eternalpixeldungeon.items.scrolls.ScrollOfTeleportation;
 import com.eternalpixel.eternalpixeldungeon.mechanics.Ballistica;
 import com.eternalpixel.eternalpixeldungeon.messages.Messages;
 import com.eternalpixel.eternalpixeldungeon.scenes.CellSelector;
@@ -25,6 +25,7 @@ import com.eternalpixel.eternalpixeldungeon.sprites.MissileSprite;
 import com.eternalpixel.eternalpixeldungeon.tiles.DungeonTilemap;
 import com.eternalpixel.eternalpixeldungeon.ui.BuffIndicator;
 import com.eternalpixel.eternalpixeldungeon.utils.GLog;
+import com.eternalpixel.eternalpixeldungeon.windows.WndWishing;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.utils.Bundle;
@@ -34,8 +35,6 @@ import com.watabou.utils.Random;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-
-import sun.security.x509.CertAttrSet;
 
 public class RiggedTarot extends Artifact {
 
@@ -84,8 +83,8 @@ public class RiggedTarot extends Artifact {
             } else {
                 defaultAction = AC_PLAY;
                 charge--;
-//                card = Random.Int(4);
-                card = 3;
+//                card = Random.Int(5);
+                card = 9;
                 changeCard();
                 updateQuickslot();
                 return;
@@ -104,7 +103,7 @@ public class RiggedTarot extends Artifact {
         }
 
         if (action.equals(AC_REDRAW) && card != -1) {
-            card = Random.Int(22);
+            card = Random.Int(5);
             changeCard();
             updateQuickslot();
             return;
@@ -129,33 +128,33 @@ public class RiggedTarot extends Artifact {
                 GameScene.selectCell(cell);
                 break;
             case 4:
+                GameScene.selectCell(cell);
+                break;
             case 5:
             case 6:
             case 7:
             case 8:
+                int hp = curUser.HP;
+                curUser.HP = Math.max(1,hp - curUser.HT * 3 / 4);
+                Game.runOnRenderThread(new Callback() {
+                    @Override
+                    public void call() {
+                        GameScene.show(new WndWishing());
+                    }
+                });
+                break;
+            case 9:
+                timeCard timeCard = new timeCard();
+                timeCard.set(curUser.HP,Dungeon.depth,curUser.pos);
+                timeCard.attachTo(Dungeon.hero);
+                break;
             default:
                 break;
         }
     }
 
     public void changeCard() {
-        switch (card) {
-            case -1:
-                image = ItemSpriteSheet.TAROT;
-                break;
-            case 0:
-                image = ItemSpriteSheet.TAROT0;
-                break;
-            case 1:
-                image = ItemSpriteSheet.TAROT1;
-                break;
-            case 2:
-                image = ItemSpriteSheet.TAROT2;
-                break;
-            case 3:
-                image = ItemSpriteSheet.TAROT3;
-                break;
-        }
+        image = ItemSpriteSheet.TAROT + card + 1;
     }
 
     @Override
@@ -232,6 +231,8 @@ public class RiggedTarot extends Artifact {
         public void onSelect(Integer cell) {
             if (cell == null) return;
 
+            final Char enemy = Actor.findChar(cell);
+
             switch (lastCard) {
                 case 1:
                     ArrayList<Integer> abc = new ArrayList<>(Arrays.asList(-1,0,1));
@@ -240,7 +241,7 @@ public class RiggedTarot extends Artifact {
                         curUser.sprite.parent.add(new newBeam(DungeonTilemap.raisedTileCenterToWorld(b.sourcePos), DungeonTilemap.raisedTileCenterToWorld(b.collisionPos)));
                     }
 
-                    final Char enemy = Actor.findChar(cell);
+
                     if (enemy != null) {
                         enemy.damage(Dungeon.hero.lvl * 4,Dungeon.hero);
                     }
@@ -252,15 +253,22 @@ public class RiggedTarot extends Artifact {
                     ((MissileSprite) curUser.sprite.parent.recycle(MissileSprite.class)).reset(curUser.sprite, cell, RiggedTarot.this, new Callback() {
                         @Override
                         public void call() {
-                            final Char enemy = Actor.findChar(cell);
-                            if (enemy != null) {
-                                Buff.affect(enemy, Cripple.class,3f);
-                                Buff.affect(enemy, Poison.class).set(2f);
-                                Buff.affect(enemy, Blindness.class,1f);
+                            Ballistica ba = new Ballistica(curUser.pos,cell,Ballistica.STOP_TARGET);
+                            for (int i : ba.path) {
+                                Char enemy = Actor.findChar(i);
+                                if (enemy != null && enemy != curUser) {
+                                    Buff.affect(enemy, Cripple.class,3f);
+                                    Buff.affect(enemy, Poison.class).set(2f);
+                                    Buff.affect(enemy, Blindness.class,1f);
+                                }
                             }
                         }
                     });
                     curUser.spendAndNext(1f);
+                    break;
+
+                case 4:
+                    fireCard(curUser.pos,cell);
                     break;
             }
 
@@ -274,7 +282,7 @@ public class RiggedTarot extends Artifact {
 
     public class rogueCard extends Buff {
 
-        protected float left = 20f;
+        protected float left = 10f;
         public int time = 0;
 
         {
@@ -299,7 +307,6 @@ public class RiggedTarot extends Artifact {
             } else {
 
                 detach();
-
             }
 
             return true;
@@ -332,6 +339,89 @@ public class RiggedTarot extends Artifact {
         public void restoreFromBundle( Bundle bundle ) {
             super.restoreFromBundle( bundle );
             left = bundle.getFloat( LEFT );
+        }
+    }
+
+    private static int nextFrom;
+    private static int nextTo;
+
+    public void fireCard(int from,int to) {
+        MagicMissile mm = ((MagicMissile) Dungeon.hero.sprite.parent.recycle(MagicMissile.class));
+
+        mm.reset(MagicMissile.FIRE, from, to, new Callback() {
+            @Override
+            public void call() {
+                Char thisEnemy = Actor.findChar(to);
+                if (thisEnemy instanceof Mob) {
+                    if (thisEnemy.buff(Burning.class) != null){
+                        Buff.affect(thisEnemy, Burning.class).reignite(thisEnemy, curUser.lvl * 4f);
+                        int burnDamage = Random.NormalIntRange( 1, 3 + Dungeon.depth/4 );
+                        thisEnemy.damage( Math.round(burnDamage * 0.67f), this );
+                    } else {
+                        Buff.affect(thisEnemy, Burning.class).reignite(thisEnemy, curUser.lvl * 4f);
+                    }
+                }
+
+//                for (int i : PathFinder.NEIGHBOURS24) {
+//                    Char nextEnemy = Actor.findChar(to + i);
+//                    if (nextEnemy != null && nextEnemy instanceof Mob) {
+//                        nextFrom = to;
+//                        nextTo = nextEnemy.pos;
+//                        fireCard(from,to);
+//                    }
+//                }
+                curUser.spendAndNext(1f);
+            }
+        });
+    }
+
+    public class timeCard extends Buff {
+
+        protected float left = 20f;
+        public int hp = 0;
+        public int depth = -1;
+        public int pos = -1;
+
+        {
+            type = buffType.POSITIVE;
+        }
+
+        public void set(int hp,int depth,int pos) {
+            this.hp = hp;
+            this.depth = depth;
+            this.pos = pos;
+        }
+
+        @Override
+        public boolean act() {
+            if (target.isAlive()) {
+
+                spend( TICK );
+
+                if (--left <= 0) {
+                    int curHp = Dungeon.hero.HP;
+                    Dungeon.hero.HP = Math.max(curHp,hp);
+                    if (Dungeon.depth == depth) {
+                        ScrollOfTeleportation.appear(curUser,pos);
+                        Dungeon.hero.interrupt();
+                        Dungeon.level.occupyCell(curUser);
+                        Dungeon.observe();
+                        GameScene.updateFog();
+                    }
+                    detach();
+                    return true;
+                }
+            } else {
+
+                detach();
+            }
+
+            return true;
+        }
+
+        @Override
+        public int icon() {
+            return BuffIndicator.TIME;
         }
     }
 }
