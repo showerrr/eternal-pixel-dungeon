@@ -2,13 +2,14 @@ package com.eternalpixel.eternalpixeldungeon.actors.buffs;
 
 import com.eternalpixel.eternalpixeldungeon.actors.hero.Hero;
 import com.watabou.utils.Bundle;
+import com.watabou.utils.Random;
 
 public class Sp extends Buff {
 
     private static final float STEP	= 1f;
 
-    public int level = 100;
-    public int maxLevel = 100;
+    public static int level = 100;
+    public static int maxLevel = 100;
 
     private static final String LEVEL = "level";
 
@@ -27,6 +28,10 @@ public class Sp extends Buff {
     @Override
     public boolean act() {
         if (target.isAlive() && target instanceof Hero) {
+
+            if (Random.Int(10) == 0 && level < maxLevel) {
+                level ++;
+            }
 
             spend(STEP);
         } else {

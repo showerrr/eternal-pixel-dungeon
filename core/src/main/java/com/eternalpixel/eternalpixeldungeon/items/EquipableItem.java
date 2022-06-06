@@ -24,7 +24,9 @@ package com.eternalpixel.eternalpixeldungeon.items;
 import com.eternalpixel.eternalpixeldungeon.Assets;
 import com.eternalpixel.eternalpixeldungeon.Dungeon;
 import com.eternalpixel.eternalpixeldungeon.actors.Char;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.MagicImmune;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Weight;
 import com.eternalpixel.eternalpixeldungeon.actors.hero.Hero;
 import com.eternalpixel.eternalpixeldungeon.effects.particles.ShadowParticle;
 import com.eternalpixel.eternalpixeldungeon.items.journal.Guidebook;
@@ -75,12 +77,18 @@ public abstract class EquipableItem extends Item {
 			//This is a special case as the item is being removed from inventory, but is staying with the hero.
 			int slot = Dungeon.quickslot.getSlot( this );
 			doEquip(hero);
+			if (hero != null && hero.isAlive()) {
+				Buff.affect(hero, Weight.class).increaseWeight(this.weight * this.quantity);
+			}
 			if (slot != -1) {
 				Dungeon.quickslot.setSlot( slot, this );
 				updateQuickslot();
 			}
 		} else if (action.equals( AC_UNEQUIP )) {
 			doUnequip( hero, true );
+			if (hero != null && hero.isAlive()) {
+				Buff.affect(hero,Weight.class).decreaseWeight(this.weight * this.quantity);
+			}
 		}
 	}
 

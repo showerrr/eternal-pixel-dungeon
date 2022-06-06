@@ -106,10 +106,8 @@ public class Weight extends Buff implements Hero.Doom {
     }
 
 
-    public boolean isBurden() { return level <= BURDEN2 && level > BURDEN; }
-    public boolean isBurden2() { return level <= OVERWEIGHT && level > BURDEN2; }
-    public boolean isOverweight() { return level <= OVERWEIGHT2 && level > OVERWEIGHT; }
-    public boolean isOverweight2() { return level > OVERWEIGHT2; }
+    public boolean isBurden() { return level <= OVERWEIGHT && level > BURDEN2 ; }
+    public boolean isOverweight() { return level > OVERWEIGHT; }
 
     @Override
     public int icon() {

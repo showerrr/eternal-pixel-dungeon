@@ -24,12 +24,15 @@ package com.eternalpixel.eternalpixeldungeon.items.potions;
 import com.eternalpixel.eternalpixeldungeon.Assets;
 import com.eternalpixel.eternalpixeldungeon.Challenges;
 import com.eternalpixel.eternalpixeldungeon.Dungeon;
+import com.eternalpixel.eternalpixeldungeon.Statistics;
 import com.eternalpixel.eternalpixeldungeon.actors.Actor;
 import com.eternalpixel.eternalpixeldungeon.actors.Char;
 import com.eternalpixel.eternalpixeldungeon.actors.blobs.Fire;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Burning;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Hunger;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Ooze;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Thirsty;
 import com.eternalpixel.eternalpixeldungeon.actors.hero.Hero;
 import com.eternalpixel.eternalpixeldungeon.effects.Splash;
 import com.eternalpixel.eternalpixeldungeon.items.Generator;
@@ -85,6 +88,8 @@ public class Potion extends Item {
 
 	private static final float TIME_TO_DRINK = 1f;
 
+	public int waterenergy = 400;
+
 	private static final HashMap<String, Integer> colors = new HashMap<String, Integer>() {
 		{
 			put("crimson",ItemSpriteSheet.POTION_CRIMSON);
@@ -139,6 +144,7 @@ public class Potion extends Item {
 	{
 		stackable = true;
 		defaultAction = AC_DRINK;
+		weight = 2;
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -285,7 +291,8 @@ public class Potion extends Item {
 	protected void drink( Hero hero ) {
 		
 		detach( hero.belongings.backpack );
-		
+		Buff.affect(hero, Thirsty.class).satisfy(waterenergy);
+		Buff.affect(hero, Hunger.class).satisfy(30);
 		hero.spend( TIME_TO_DRINK );
 		hero.busy();
 		apply( hero );
@@ -304,11 +311,19 @@ public class Potion extends Item {
 		} else  {
 
 			Dungeon.level.pressCell( cell );
+			Char ch = Actor.findChar(cell);
+			if (ch != null) {
+				apply(ch);
+			}
 			shatter( cell );
 			
 		}
 	}
-	
+
+	public void apply( Char ch ) {
+		shatter( ch.pos );
+	}
+
 	public void apply( Hero hero ) {
 		shatter( hero.pos );
 	}
@@ -522,6 +537,8 @@ public class Potion extends Item {
 				Dungeon.LimitedDrops.COOKING_HP.count++;
 			}
 			
+			Statistics.potionsCooked++;
+
 			return result;
 		}
 		

@@ -217,4 +217,8 @@ public class Hunger extends Buff implements Hero.Doom {
 		Dungeon.fail( getClass() );
 		GLog.n( Messages.get(this, "ondeath") );
 	}
+
+	public int hungerLevel() {
+		return (int)level;
+	}
 }

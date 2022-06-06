@@ -84,7 +84,9 @@ import com.eternalpixel.eternalpixeldungeon.items.artifacts.EtherealChains;
 import com.eternalpixel.eternalpixeldungeon.items.artifacts.HornOfPlenty;
 import com.eternalpixel.eternalpixeldungeon.items.artifacts.TalismanOfForesight;
 import com.eternalpixel.eternalpixeldungeon.items.artifacts.TimekeepersHourglass;
+import com.eternalpixel.eternalpixeldungeon.items.bags.CoolerBox;
 import com.eternalpixel.eternalpixeldungeon.items.bags.MagicalHolster;
+import com.eternalpixel.eternalpixeldungeon.items.food.Food;
 import com.eternalpixel.eternalpixeldungeon.items.journal.Guidebook;
 import com.eternalpixel.eternalpixeldungeon.items.keys.CrystalKey;
 import com.eternalpixel.eternalpixeldungeon.items.keys.GoldenKey;
@@ -568,6 +570,13 @@ public class Hero extends Char {
 		float speed = super.speed();
 
 		speed *= RingOfHaste.speedMultiplier(this);
+
+		Weight weight = buff(Weight.class);
+		if (weight.isOverweight()) {
+			speed *= 0.5;
+		} else if (weight.isBurden()) {
+			speed *= 0.8;
+		}
 		
 		if (belongings.armor() != null) {
 			speed = belongings.armor().speedFactor(this, speed);
@@ -585,7 +594,7 @@ public class Hero extends Char {
 		if (natStrength != null){
 			speed *= (2f + 0.25f*pointsInTalent(Talent.GROWING_POWER));
 		}
-		
+
 		return speed;
 		
 	}
@@ -648,6 +657,15 @@ public class Hero extends Char {
 		if (bubble != null){
 			bubble.processTime(time);
 			return;
+		}
+
+		for (Item i : belongings) {
+			if (i instanceof Food && i.rot > 0 && i.collect(belongings.backpack)) {
+				i.rot -= time;
+				if (i.rot <= 0) {
+					i.detachAll(belongings.backpack);
+				}
+			}
 		}
 		
 		super.spend(time);

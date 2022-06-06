@@ -19,7 +19,7 @@ public class CoolerBox extends Bag {
     }
 
     public int capacity(){
-        return 50;
+        return 20;
     }
 
     @Override

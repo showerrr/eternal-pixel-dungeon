@@ -25,6 +25,7 @@ import com.eternalpixel.eternalpixeldungeon.Assets;
 import com.eternalpixel.eternalpixeldungeon.Dungeon;
 import com.eternalpixel.eternalpixeldungeon.EPDAction;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.LostInventory;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Weight;
 import com.eternalpixel.eternalpixeldungeon.actors.hero.Belongings;
 import com.eternalpixel.eternalpixeldungeon.actors.hero.Hero;
 import com.eternalpixel.eternalpixeldungeon.items.EquipableItem;

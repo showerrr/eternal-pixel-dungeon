@@ -25,6 +25,9 @@ import com.eternalpixel.eternalpixeldungeon.Dungeon;
 import com.eternalpixel.eternalpixeldungeon.EternalPixelDungeon;
 import com.eternalpixel.eternalpixeldungeon.Statistics;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Hunger;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Sp;
+import com.eternalpixel.eternalpixeldungeon.actors.buffs.Stamina;
 import com.eternalpixel.eternalpixeldungeon.actors.hero.Hero;
 import com.eternalpixel.eternalpixeldungeon.messages.Messages;
 import com.eternalpixel.eternalpixeldungeon.scenes.GameScene;
@@ -146,12 +149,18 @@ public class WndHero extends WndTabbed {
 			else                        statSlot( Messages.get(this, "str"), hero.STR() );
 			if (hero.shielding() > 0)   statSlot( Messages.get(this, "health"), hero.HP + "+" + hero.shielding() + "/" + hero.HT );
 			else                        statSlot( Messages.get(this, "health"), (hero.HP) + "/" + hero.HT );
+			statSlot( Messages.get(this, "mana"), (hero.MP) + "/" + hero.MT );
+			statSlot(Messages.get(this, "stamina") , Sp.level + "/" + Sp.maxLevel);
 			statSlot( Messages.get(this, "exp"), hero.exp + "/" + hero.maxExp() );
+			statSlot(Messages.get(this, "speed") , (int)(Dungeon.hero.speed() * 100));
+			if (Dungeon.hero.buff(Hunger.class) != null){
+				statSlot(Messages.get(this, "hunger") , Dungeon.hero.buff(Hunger.class).hungerLevel());
+			}
+//			statSlot(Messages.get(this, "speed") , Integer.toString( (int)Statistics.duration ));
+//			statSlot(Messages.get(this, "speed") , Integer.toString( (int)WndTownBoard.lastDuration ));
 
-			pos += GAP;
-
-			statSlot( Messages.get(this, "gold"), Statistics.goldCollected );
-			statSlot( Messages.get(this, "depth"), Statistics.deepestFloor );
+//			statSlot( Messages.get(this, "gold"), Statistics.goldCollected );
+//			statSlot( Messages.get(this, "depth"), Statistics.deepestFloor );
 
 			pos += GAP;
 		}

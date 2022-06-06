@@ -21,6 +21,7 @@
 
 package com.eternalpixel.eternalpixeldungeon.items.scrolls;
 
+import com.eternalpixel.eternalpixeldungeon.Assets;
 import com.eternalpixel.eternalpixeldungeon.Dungeon;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Blindness;
 import com.eternalpixel.eternalpixeldungeon.actors.buffs.Buff;
@@ -54,6 +55,7 @@ import com.eternalpixel.eternalpixeldungeon.messages.Messages;
 import com.eternalpixel.eternalpixeldungeon.sprites.HeroSprite;
 import com.eternalpixel.eternalpixeldungeon.sprites.ItemSpriteSheet;
 import com.eternalpixel.eternalpixeldungeon.utils.GLog;
+import com.watabou.noosa.audio.Sample;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Reflection;
 
@@ -91,6 +93,8 @@ public abstract class Scroll extends Item {
 	{
 		stackable = true;
 		defaultAction = AC_READ;
+		weight = 1;
+
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -185,6 +189,7 @@ public abstract class Scroll extends Item {
 		curUser.spend( TIME_TO_READ );
 		curUser.busy();
 		((HeroSprite)curUser.sprite).read();
+		Sample.INSTANCE.play( Assets.Sounds.READ );
 
 		if (curUser.hasTalent(Talent.EMPOWERING_SCROLLS)){
 			Buff.affect(curUser, ScrollEmpower.class).reset();

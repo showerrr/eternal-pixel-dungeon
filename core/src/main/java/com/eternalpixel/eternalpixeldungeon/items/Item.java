@@ -77,8 +77,8 @@ public class Item implements Bundlable {
 	
 	public boolean stackable = false;
 	public int quantity = 1;
-	public int rot = 0;
-	public int weight = 0;
+	public float rot = 0;
+	public int weight = 1;
 
 	public boolean dropsDownHeap = false;
 	
@@ -327,7 +327,7 @@ public class Item implements Bundlable {
 				}
 			}
 		}
-		
+
 		return this;
 	}
 	
